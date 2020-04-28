@@ -1,0 +1,65 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="581" height="519" viewBox="0 0 581 519">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d1d1d1;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 35px;
+        font-family: Montserrat-Regular, Montserrat;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-10 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <path class="cls-1" d="M519,270.4A250.07,250.07,0,0,1,268.72,520.63c-138.2,0-250.23-112-250.23-250.23s112-250.24,250.23-250.24S519,132.2,519,270.4Z"/>
+      <path class="cls-1" d="M582,446.92q-27.54-73.62-83.47-77.35l-58.31,83Q503.24,414.69,582,446.92Z"/>
+    </g>
+    <g>
+      <path class="cls-2" d="M501.5,258.76A250.07,250.07,0,0,1,251.27,509C113.07,509,1,397,1,258.76S113.07,8.53,251.27,8.53,501.5,120.56,501.5,258.76Z"/>
+      <path class="cls-2" d="M564.54,435.28Q537,361.67,481.08,357.93l-58.32,83Q485.78,403,564.54,435.28Z"/>
+    </g>
+  </g>
+  <text class="cls-3" transform="translate(51.06 250.22)">Der<tspan class="cls-4" x="64.08" y="0">f</tspan><tspan x="75.63" y="0">or er </tspan><tspan class="cls-5" x="165.13" y="0">h</tspan><tspan class="cls-6" x="188.47" y="0">v</tspan><tspan x="206.92" y="0">e</tspan><tspan class="cls-7" x="228.06" y="0">r</tspan><tspan class="cls-8" x="242.62" y="0">t p</tspan><tspan class="cls-9" x="289.72" y="0">r</tspan><tspan x="303.3" y="0">odukt </tspan><tspan x="38.41" y="46.36">unikt og l</tspan><tspan class="cls-5" x="204.03" y="46.36">a</tspan><tspan class="cls-10" x="224.33" y="46.36">v</tspan><tspan x="242.77" y="46.36">et </tspan><tspan class="cls-11" x="287.29" y="46.36">m</tspan><tspan x="324.5" y="46.36">ed </tspan><tspan class="cls-12" x="137.98" y="92.71">p</tspan><tspan x="161.61" y="92.71">assion.</tspan></text>
+</svg>

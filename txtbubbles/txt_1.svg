@@ -1,0 +1,81 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="581" height="521" viewBox="0 0 581 521">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d1d1d1;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 35px;
+        font-family: Montserrat-Regular, Montserrat;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-10 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-11 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-12 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-13 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-16 {
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <path class="cls-1" d="M518,272.4A250.07,250.07,0,0,1,267.72,522.63c-138.2,0-250.23-112-250.23-250.23s112-250.24,250.23-250.24S518,134.2,518,272.4Z"/>
+      <path class="cls-1" d="M581,448.92q-27.54-73.62-83.47-77.35l-58.31,83Q502.24,416.69,581,448.92Z"/>
+    </g>
+    <g>
+      <path class="cls-2" d="M500.5,260.76A250.07,250.07,0,0,1,250.27,511C112.07,511,0,399,0,260.76s112-250.23,250.24-250.23S500.5,122.56,500.5,260.76Z"/>
+      <path class="cls-2" d="M563.54,437.28Q536,363.67,480.08,359.93l-58.32,83Q484.78,405,563.54,437.28Z"/>
+    </g>
+  </g>
+  <text class="cls-3" transform="translate(38.38 252.65)">Her <tspan class="cls-4" x="72.8" y="0">h</tspan><tspan x="96.56" y="0">os </tspan><tspan class="cls-5" x="144.79" y="0">K</tspan><tspan class="cls-6" x="169.19" y="0">a</tspan><tspan class="cls-7" x="189.49" y="0">y</tspan><tspan class="cls-8" x="208.25" y="0">sen </tspan><tspan class="cls-9" x="279.37" y="0">K</tspan><tspan x="303.41" y="0">e</tspan><tspan class="cls-10" x="324.55" y="0">r</tspan><tspan x="338.27" y="0">amik</tspan><tspan x="45.73" y="44.96">er alle p</tspan><tspan class="cls-11" x="183.59" y="44.96">r</tspan><tspan x="197.17" y="44.96">oduk</tspan><tspan class="cls-12" x="287.44" y="44.96">t</tspan><tspan x="300.98" y="44.96">e</tspan><tspan class="cls-13" x="322.12" y="44.96">r</tspan><tspan class="cls-4" x="335.87" y="44.96">n</tspan><tspan class="cls-14" x="359.64" y="44.96">e</tspan><tspan x="101.95" y="89.92" xml:space="preserve"> hå</tspan><tspan class="cls-4" x="155.47" y="89.92">n</tspan><tspan class="cls-14" x="179.23" y="89.92">dl</tspan><tspan class="cls-15" x="212.38" y="89.92">a</tspan><tspan class="cls-16" x="232.68" y="89.92">v</tspan><tspan x="251.12" y="89.92">ede.</tspan></text>
+</svg>

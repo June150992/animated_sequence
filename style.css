@@ -1,0 +1,184 @@
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+.fade_out {
+    animation-name: fadeout_kf;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeout_kf {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@keyframes bounce_kf {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes pulse_kf {
+    0% {
+        transform: scale(0.97);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+}
+#sun {
+    position: absolute;
+    background-image: url(assets/sun.svg);
+    background-repeat: no-repeat;
+    animation-name: bounce_kf;
+    animation-timing-function: ease;
+    height: 8vw;
+    width: 8vw;
+    top: 8vw;
+    right: 10vw;
+    background-size: 100%;
+}
+#cloud_1 {
+    position: absolute;
+    background-image: url(assets/cloud.svg);
+    background-repeat: no-repeat;
+    height: 5vw;
+    width: 5vw;
+    top: 15vw;
+    left: 20vw;
+    background-size: 100%;
+    z-index: 1;
+}
+#cloud_2 {
+    position: absolute;
+    background-image: url(assets/cloud.svg);
+    background-repeat: no-repeat;
+    animation-delay: 1s;
+    height: 3vw;
+    width: 3vw;
+    top: 18vw;
+    left: 20vw;
+    background-size: 100%;
+    z-index: 2;
+
+}
+
+.flying {
+    animation-name: flying;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes flying {
+    from {
+        left: 30vw;
+    }
+
+    to {
+        left: 95vw;
+    }
+}
+
+#next {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 20px;
+    background-color: #797F41;
+    color: white;
+    top: 40vw;
+    right: 35vw;
+    border: none;
+}
+
+#screen_1 {
+    position: absolute;
+    width: 60vw;
+    height: 70vh;
+    background-image: url('screens/screen_1.svg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    top: 5vw;
+    right: 5vw;
+    overflow: hidden;
+}
+
+#txt_1 {
+    position: absolute;
+    background-image: url('txtbubbles/txt_1.svg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    width: 15vw;
+    height: 30vh;
+    top: 8vw;
+    right: 23vw;
+    z-index: 3;
+}
+
+#screen_2 {
+    position: absolute;
+    width: 60vw;
+    height: 70vh;
+    background-image: url('screens/screen_2.svg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    top: 5vw;
+    right: 5vw;
+    overflow: hidden;
+}
+
+#txt_2 {
+    position: absolute;
+    background-image: url('txtbubbles/txt_2.svg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    width: 15vw;
+    height: 30vh;
+    top: 8vw;
+    right: 23vw;
+    z-index: 3;
+}
+
+@keyframes character_kf {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -300% 0;
+    }
+}
+#character {
+    animation-name: character_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: steps(3);
+    display: inline-block;
+    position: absolute;
+    background-image: url(assets/character.svg);
+    height: 30vw;
+    width: 12vw;
+    top: 14vw;
+    right: 14.5vw;
+    background-size: 300% 100%;
+}
