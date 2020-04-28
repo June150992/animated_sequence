@@ -1,0 +1,69 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="592" height="555" viewBox="0 0 592 555">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d1d1d1;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 35px;
+        font-family: Montserrat-Regular, Montserrat;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-13 {
+        letter-spacing: -0.01em;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <path class="cls-1" d="M524,273.55A250.07,250.07,0,0,1,273.72,523.78c-138.2,0-250.23-112-250.23-250.23s112-250.24,250.23-250.24S524,135.35,524,273.55Z"/>
+      <path class="cls-1" d="M587,450.07q-27.54-73.6-83.47-77.35l-58.31,83Q508.24,417.84,587,450.07Z"/>
+    </g>
+    <g>
+      <path class="cls-2" d="M506.5,261.91A250.07,250.07,0,0,1,256.27,512.14C118.07,512.14,6,400.11,6,261.91s112-250.23,250.24-250.23S506.5,123.71,506.5,261.91Z"/>
+      <path class="cls-2" d="M569.54,438.43q-27.54-73.6-83.46-77.35l-58.32,83Q490.78,406.2,569.54,438.43Z"/>
+    </g>
+  </g>
+  <text class="cls-3" transform="translate(81.31 185.31)">Den sids<tspan class="cls-4" x="150.29" y="0">t</tspan><tspan x="163.83" y="0">e b</tspan><tspan class="cls-5" x="217.87" y="0">r</tspan><tspan x="231.59" y="0">æ</tspan><tspan class="cls-6" x="266.1" y="0">n</tspan><tspan x="289.87" y="0">dig,</tspan><tspan x="-18.74" y="46.36">de</tspan><tspan class="cls-7" x="26.13" y="46.36">k</tspan><tspan x="46.43" y="46.36">o</tspan><tspan class="cls-8" x="68.37" y="46.36">r</tspan><tspan x="82.09" y="46.36">ationsb</tspan><tspan class="cls-5" x="212.85" y="46.36">r</tspan><tspan x="226.57" y="46.36">æ</tspan><tspan class="cls-6" x="261.08" y="46.36">n</tspan><tspan class="cls-9" x="284.84" y="46.36">di</tspan><tspan class="cls-6" x="317.99" y="46.36">n</tspan><tspan class="cls-9" x="341.75" y="46.36">g,</tspan><tspan x="74.08" y="92.71">fi</tspan><tspan class="cls-6" x="98.16" y="92.71">n</tspan><tspan class="cls-9" x="121.92" y="92.71">der s</tspan><tspan class="cls-4" x="207.11" y="92.71">t</tspan><tspan x="220.65" y="92.71">ed..</tspan><tspan x="-61.41" y="139.07">Nu er p</tspan><tspan class="cls-10" x="67.85" y="139.07">r</tspan><tspan class="cls-11" x="81.43" y="139.07">oduk</tspan><tspan class="cls-12" x="171.69" y="139.07">t</tspan><tspan x="185.23" y="139.07">et </tspan><tspan class="cls-13" x="229.75" y="139.07">f</tspan><tspan x="241.27" y="139.07">æ</tspan><tspan class="cls-10" x="275.78" y="139.07">r</tspan><tspan x="289.36" y="139.07">digt og</tspan><tspan x="4.01" y="185.42">klar til salg og brug!</tspan></text>
+</svg>

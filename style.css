@@ -14,7 +14,7 @@
 }
 .fade_out {
     animation-name: fadeout_kf;
-    animation-duration: .5s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -53,8 +53,8 @@
     animation-timing-function: ease;
     height: 8vw;
     width: 8vw;
-    top: 8vw;
-    right: 10vw;
+    top: 3vw;
+    right: 3vw;
     background-size: 100%;
 }
 #cloud_1 {
@@ -63,7 +63,7 @@
     background-repeat: no-repeat;
     height: 5vw;
     width: 5vw;
-    top: 15vw;
+    top: 7vw;
     left: 20vw;
     background-size: 100%;
     z-index: 1;
@@ -75,7 +75,7 @@
     animation-delay: 1s;
     height: 3vw;
     width: 3vw;
-    top: 18vw;
+    top: 10vw;
     left: 20vw;
     background-size: 100%;
     z-index: 2;
@@ -84,14 +84,14 @@
 
 .flying {
     animation-name: flying;
-    animation-duration: 17s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
 @keyframes flying {
     from {
-        left: 30vw;
+        left: 0vw;
     }
 
     to {
@@ -99,13 +99,33 @@
     }
 }
 
-#next {
+#next_1 {
     position: absolute;
     font-family: 'Montserrat', sans-serif;
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
-    top: 40vw;
+    top: 35vw;
+    right: 35vw;
+    border: none;
+}
+#next_2 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 20px;
+    background-color: #797F41;
+    color: white;
+    top: 35vw;
+    right: 35vw;
+    border: none;
+}
+#next_3 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 20px;
+    background-color: #797F41;
+    color: white;
+    top: 35vw;
     right: 35vw;
     border: none;
 }
@@ -157,6 +177,29 @@
     right: 23vw;
     z-index: 3;
 }
+#screen_3 {
+    position: absolute;
+    width: 60vw;
+    height: 70vh;
+    background-image: url('screens/screen_3.svg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    top: 5vw;
+    right: 5vw;
+    overflow: hidden;
+}
+
+#txt_3 {
+    position: absolute;
+    background-image: url('txtbubbles/txt_3.svg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    width: 15vw;
+    height: 30vh;
+    top: 8vw;
+    right: 23vw;
+    z-index: 3;
+}
 
 @keyframes character_kf {
     0% {
@@ -165,6 +208,15 @@
 
     100% {
         background-position: -300% 0;
+    }
+}
+@keyframes character_idea_kf {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -400% 0;
     }
 }
 #character {
@@ -178,7 +230,44 @@
     background-image: url(assets/character.svg);
     height: 30vw;
     width: 12vw;
-    top: 14vw;
-    right: 14.5vw;
+    top: 8.8vw;
+    right: 9.5vw;
     background-size: 300% 100%;
+}
+#char_idea {
+    animation-name: character_idea_kf;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: steps(4);
+    display: inline-block;
+    position: absolute;
+    background-image: url(assets/char_idea.svg);
+    height: 30vw;
+    width: 15vw;
+    top: 9.2vw;
+    right: 6.5vw;
+    background-size: 400% 100%;
+}
+
+#pot_1 {
+    position: absolute;
+    background-image: url(assets/pot.svg);
+    background-repeat: no-repeat;
+    height: 16vw;
+    width: 6vw;
+    top: 18vw;
+    right: 40vw;
+    background-size: 100%;
+}
+#pot_2 {
+    position: absolute;
+    background-image: url(assets/pot.svg);
+    background-repeat: no-repeat;
+    height: 22vw;
+    width: 9vw;
+    top: 12vw;
+    right: 40vw;
+    background-size: 100%;
+    z-index: 4;
 }
