@@ -84,7 +84,7 @@
 
 .flying {
     animation-name: flying;
-    animation-duration: 15s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -95,7 +95,7 @@
     }
 
     to {
-        left: 95vw;
+        left: 60vw;
     }
 }
 
@@ -139,7 +139,6 @@
     background-repeat: no-repeat; 
     top: 5vw;
     right: 5vw;
-    overflow: hidden;
 }
 
 #txt_1 {
@@ -163,7 +162,6 @@
     background-repeat: no-repeat; 
     top: 5vw;
     right: 5vw;
-    overflow: hidden;
 }
 
 #txt_2 {
@@ -186,7 +184,6 @@
     background-repeat: no-repeat; 
     top: 5vw;
     right: 5vw;
-    overflow: hidden;
 }
 
 #txt_3 {
@@ -236,7 +233,7 @@
 }
 #char_idea {
     animation-name: character_idea_kf;
-    animation-duration: 3s;
+    animation-duration: 3.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-timing-function: steps(4);
