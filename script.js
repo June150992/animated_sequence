@@ -112,3 +112,22 @@ function hideScreen5() {
 
     document.querySelector("#screen_5").addEventListener("animationend", showScreen6);
 }
+function showScreen6() {
+    console.log("showScreen6");
+
+    document.querySelector("#screen_6").classList.add("show");
+    document.querySelector("#screen_6").classList.remove("hide");
+
+    document.querySelector("#txt_6").classList.add("pulse");
+    document.querySelector("#next_6").addEventListener("click", hideScreen6);
+}
+function hideScreen6() {
+
+    console.log("hideScreen6");
+
+    document.querySelector("#screen_6").classList.add("fade_out");
+    document.querySelector("#screen_6").classList.remove("show");
+    document.querySelector("#screen_6").classList.add("hide");
+
+    document.querySelector("#screen_6").addEventListener("animationend", showScreen6);
+}

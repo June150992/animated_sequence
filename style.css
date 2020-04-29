@@ -14,9 +14,7 @@
 }
 .fade_out {
     animation-name: fadeout_kf;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+    animation-duration: 2s;
 }
 
 @keyframes fadeout_kf {
@@ -106,9 +104,10 @@
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
-    top: 35vw;
-    right: 35vw;
+    top: 0vw;
+    right: 56vw;
     border: none;
+    cursor: pointer;
 }
 #next_2 {
     position: absolute;
@@ -117,9 +116,10 @@
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
-    top: 35vw;
-    right: 35vw;
+    top: 0vw;
+    right: 56vw;
     border: none;
+    cursor: pointer;
 }
 #next_3 {
     position: absolute;
@@ -128,9 +128,10 @@
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
-    top: 35vw;
-    right: 35vw;
+    top: 0vw;
+    right: 56vw;
     border: none;
+    cursor: pointer;
 }
 
 #next_4 {
@@ -140,9 +141,10 @@
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
-    top: 35vw;
-    right: 35vw;
+    top: 0vw;
+    right: 56vw;
     border: none;
+    cursor: pointer;
 }
 #next_5 {
     position: absolute;
@@ -151,9 +153,23 @@
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
-    top: 35vw;
-    right: 35vw;
+    top: 0vw;
+    right: 56vw;
     border: none;
+    cursor: pointer;
+}
+
+#next_6 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 15px 20px;
+    background-color: #797F41;
+    color: white;
+    top: 0vw;
+    right: 56vw;
+    border: none;
+    cursor: pointer;
 }
 
 #reload {
@@ -161,11 +177,12 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding: 15px 20px;
-    background-color: #797F41;
+    background-color: #4D511B;
     color: white;
-    top: 40vw;
-    right: 28vw;
+    top: 0vw;
+    right: 45vw;
     border: none; 
+    cursor: pointer;
 }
 
 #screen_1 {
@@ -283,6 +300,29 @@
     z-index: 3;
 }
 
+#screen_6 {
+    position: absolute;
+    width: 60vw;
+    height: 75vh;
+    background-image: url('screens/screen_6.svg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    top: 5vw;
+    right: 5vw;
+}
+
+#txt_6 {
+    position: absolute;
+    background-image: url('txtbubbles/txt_6.svg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    width: 15vw;
+    height: 30vh;
+    top: 3vw;
+    right: 20vw;
+    z-index: 3;
+}
+
 #hand {
 position: absolute;
 animation: pointing 1.5s ease infinite;
@@ -341,6 +381,22 @@ to {
     100% {
         background-position: -400% 0;
     }
+}
+
+#can {
+    animation-name: character_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: steps(3);
+    display: inline-block;
+    position: absolute;
+    background-image: url(assets/can.svg);
+    height: 20vw;
+    width: 10vw;
+    top: 11.5vw;
+    right: 39vw;
+    background-size: 300% 100%;
 }
 
 #fire {
