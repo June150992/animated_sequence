@@ -102,6 +102,7 @@
 #next_1 {
     position: absolute;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
@@ -112,6 +113,7 @@
 #next_2 {
     position: absolute;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
@@ -122,6 +124,7 @@
 #next_3 {
     position: absolute;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
@@ -133,6 +136,7 @@
 #next_4 {
     position: absolute;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
@@ -143,6 +147,7 @@
 #next_5 {
     position: absolute;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
@@ -154,6 +159,7 @@
 #reload {
     position: absolute;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
