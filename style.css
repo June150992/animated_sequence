@@ -151,6 +151,17 @@
     border: none;
 }
 
+#reload {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 20px;
+    background-color: #797F41;
+    color: white;
+    top: 40vw;
+    right: 28vw;
+    border: none; 
+}
+
 #screen_1 {
     position: absolute;
     width: 60vw;
@@ -261,8 +272,8 @@
     background-repeat: no-repeat; 
     width: 15vw;
     height: 30vh;
-    top: 2vw;
-    right: 2vw;
+    top: 3vw;
+    right: 20vw;
     z-index: 3;
 }
 
@@ -325,6 +336,23 @@ to {
         background-position: -400% 0;
     }
 }
+
+#fire {
+    animation-name: character_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: steps(3);
+    display: inline-block;
+    position: absolute;
+    background-image: url(assets/fire.svg);
+    height: 12vw;
+    width: 6vw;
+    top: 11.3vw;
+    right: 32vw;
+    background-size: 300% 100%;
+}
+
 #character {
     animation-name: character_kf;
     animation-duration: 2s;

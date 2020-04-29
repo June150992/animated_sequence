@@ -7,6 +7,10 @@ function showScreen() {
 
 }
 
+function reloadThePage(){
+    window.location.reload();
+} 
+
 function showScreen1() {
     console.log("showScreen1");
 
