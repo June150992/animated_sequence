@@ -69,3 +69,42 @@ function hideScreen3() {
 
     document.querySelector("#screen_3").addEventListener("animationend", showScreen4);
 }
+function showScreen4() {
+    console.log("showScreen4");
+
+    document.querySelector("#screen_4").classList.add("show");
+    document.querySelector("#screen_4").classList.remove("hide");
+
+    document.querySelector("#txt_4").classList.add("pulse");
+    document.querySelector("#next_4").addEventListener("click", hideScreen4);
+}
+function hideScreen4() {
+
+    console.log("hideScreen3");
+
+    document.querySelector("#screen_4").classList.add("fade_out");
+    document.querySelector("#screen_4").classList.remove("show");
+    document.querySelector("#screen_4").classList.add("hide");
+
+    document.querySelector("#screen_4").addEventListener("animationend", showScreen5);
+}
+
+function showScreen5() {
+    console.log("showScreen5");
+
+    document.querySelector("#screen_5").classList.add("show");
+    document.querySelector("#screen_5").classList.remove("hide");
+
+    document.querySelector("#txt_5").classList.add("pulse");
+    document.querySelector("#next_5").addEventListener("click", hideScreen5);
+}
+function hideScreen5() {
+
+    console.log("hideScreen5");
+
+    document.querySelector("#screen_5").classList.add("fade_out");
+    document.querySelector("#screen_5").classList.remove("show");
+    document.querySelector("#screen_5").classList.add("hide");
+
+    document.querySelector("#screen_5").addEventListener("animationend", showScreen6);
+}
