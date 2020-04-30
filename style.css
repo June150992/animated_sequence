@@ -97,9 +97,29 @@
     }
 }
 
+.music {
+    width: 100px;
+    opacity: 1;
+    position: fixed;
+    top: 10vh;
+    right: 40vw;
+    z-index: 10;
+    animation: fade_in_kf 1s linear;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+@keyframes fade_in_kf {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 #step_1 {
 position: absolute;
-font-family: 'Montserrat', sans-serif;
 background-image: url(assets/1.svg);
 background-size: 100%;
 background-repeat: no-repeat;
@@ -314,7 +334,7 @@ right: 25vw;;
     background-color: #4D511B;
     color: white;
     top: 0vw;
-    right: 55vw;
+    right: 52vw;
     border: none; 
     cursor: pointer;
 }
@@ -544,7 +564,7 @@ background-size: 100%;
 background-repeat: no-repeat;
 width: 5vw;
 height: 10vh;
-top: 45vh;
+top: 50vh;
 right: 35vw;
 }
 

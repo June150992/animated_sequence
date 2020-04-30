@@ -8,6 +8,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
+    
+    <div class="music">
+        <audio src="assets/music.mp3" id="playmusic" loop></audio>
+        <img
+          src="assets/music_on.svg"
+          class="music_on_button"
+          alt="Music on button"
+          style="display: none;"
+        />
+        <img
+          src="assets/music_off.svg"
+          class="music_off_button"
+          alt="Music off button"
+          style="display: block;"
+        />
+      </div>
 
     <div id="screen_1" class="hide">
         <div id="step_1"></div>
@@ -56,6 +72,7 @@
         <div id="txt_5"></div>
         <div id="character"></div>
         <div id="fire"></div>
+        <div id="still_cup"></div> 
         <button id="next_5" class="pulse">NÆSTE</button>
         <button type="button" id="reload" onClick="reloadThePage()">TILBAGE TIL START<button>
     </div>

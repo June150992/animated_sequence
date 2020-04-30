@@ -7,6 +7,26 @@ function showScreen() {
 
 }
 
+// Activates music button
+const musicButton = document.querySelector(".music");
+const music = document.querySelector("#playmusic");
+const musicOnButton = musicButton.querySelector(".music_on_button");
+const musicOffButton = musicButton.querySelector(".music_off_button");
+let musicIsPlaying = false;
+musicButton.addEventListener("click", function() {
+  if (!musicIsPlaying) {
+    music.play();
+    musicIsPlaying = true;
+    musicOnButton.style.display = "block";
+    musicOffButton.style.display = "none";
+  } else {
+    music.pause();
+    musicIsPlaying = false;
+    musicOnButton.style.display = "none";
+    musicOffButton.style.display = "block";
+  }
+});
+
 function reloadThePage(){
     window.location.reload();
 } 
