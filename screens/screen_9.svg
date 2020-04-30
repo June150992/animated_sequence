@@ -1,0 +1,51 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1108" viewBox="0 0 1920 1108">
+  <defs>
+    <clipPath id="clip-path">
+      <path d="M372.69,1072.83c-218.41-43.46-213-170.6-307.52-243.41S88,466.48,270.55,379.55,807.36,236.11,865,110.05s523.77-9.78,596.57,0,190.17-145.61,327.09-52.16S1839.69,393,1829.9,539.28c0,0,120.62,292.31-67.37,434.67s-143.44,108.66-341.21,128.22S1230.07,985.9,1052.94,994.59,591.11,1116.3,372.69,1072.83Z" fill="none"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="787.31" cy="568.66" r="266.66" gradientUnits="userSpaceOnUse">
+      <stop offset="0.22" stop-color="#efc04d"/>
+      <stop offset="0.48" stop-color="#e87e0c"/>
+      <stop offset="0.72" stop-color="#c91c1c"/>
+      <stop offset="1" stop-color="#2a2a2a"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="1075" cy="578" r="27" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#clip-path)">
+    <rect y="763" width="1920" height="345" fill="#c1cde5"/>
+    <rect width="1920" height="763" fill="#f4f0df"/>
+    <rect x="407.74" y="377.36" width="767.19" height="389.64" fill="#9b9b9b"/>
+    <rect x="444.58" y="411.32" width="685.46" height="314.68" fill="url(#radial-gradient)"/>
+    <circle cx="404.58" cy="522.69" r="34.82" fill="#9b9b9b"/>
+    <circle cx="404.58" cy="592.33" r="34.82" fill="#9b9b9b"/>
+    <circle cx="404" cy="661.96" r="34.82" fill="#9b9b9b"/>
+    <circle cx="402.85" cy="731.6" r="34.82" fill="#9b9b9b"/>
+    <circle cx="406.88" cy="385.13" r="34.82" fill="#9b9b9b"/>
+    <circle cx="473.64" cy="374.2" r="34.82" fill="#9b9b9b"/>
+    <circle cx="543.28" cy="374.2" r="34.82" fill="#9b9b9b"/>
+    <circle cx="612.92" cy="374.2" r="34.82" fill="#9b9b9b"/>
+    <circle cx="682.56" cy="374.2" r="34.82" fill="#9b9b9b"/>
+    <circle cx="752.2" cy="374.2" r="34.82" fill="#9b9b9b"/>
+    <circle cx="822.99" cy="374.2" r="34.82" fill="#9b9b9b"/>
+    <circle cx="892.63" cy="375.35" r="34.82" fill="#9b9b9b"/>
+    <circle cx="962.85" cy="374.2" r="34.82" fill="#9b9b9b"/>
+    <circle cx="1032.49" cy="374.2" r="34.82" fill="#9b9b9b"/>
+    <circle cx="1102.13" cy="374.2" r="34.82" fill="#9b9b9b"/>
+    <circle cx="1171.77" cy="385.13" r="34.82" fill="#9b9b9b"/>
+    <circle cx="1171.77" cy="453.05" r="34.82" fill="#9b9b9b"/>
+    <circle cx="1171.77" cy="522.69" r="34.82" fill="#9b9b9b"/>
+    <circle cx="1171.77" cy="592.33" r="34.82" fill="#9b9b9b"/>
+    <circle cx="1171.77" cy="661.96" r="34.82" fill="#9b9b9b"/>
+    <circle cx="1171.77" cy="732.18" r="34.82" fill="#9b9b9b"/>
+    <circle cx="407.46" cy="453.05" r="34.82" fill="#9b9b9b"/>
+    <rect x="600.39" width="378.43" height="410.52" fill="#9b9b9b"/>
+    <path d="M791.5,1110.25,293,1111.42v-1.17c0-161.83,225-295,498.5-295s498.5,133.17,498.5,295Z" fill="#683123"/>
+    <path d="M361,1112S462,863,801,863s413.28,249,413.28,249Z" fill="#87480f"/>
+    <rect x="1423" y="94" width="362" height="362" rx="57.8" fill="#e9f4f4"/>
+    <polygon points="1587.25 93 1587.25 259.55 1423 259.55 1423 274.5 1587.39 274.5 1587.39 456 1604 456 1604 274.93 1785 274.93 1785 259.83 1603.57 259.83 1603.57 93 1587.25 93" fill="#fff"/>
+    <circle cx="1075" cy="578" r="27" fill="url(#radial-gradient-2)"/>
+  </g>
+</svg>

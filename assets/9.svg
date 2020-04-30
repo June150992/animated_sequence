@@ -1,0 +1,9 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="387.33" height="373.33" viewBox="0 0 387.33 373.33">
+  <g>
+    <circle cx="286" cy="272" r="101" fill="#4d511b"/>
+    <text transform="translate(252.87 302.38)" font-size="104.03" fill="#fff" font-family="Montserrat-Bold, Montserrat" font-weight="700">9</text>
+  </g>
+  <circle cx="102.38" cy="101.53" r="101" fill="#4d511b"/>
+  <text transform="translate(69.24 131.9)" font-size="104.03" fill="#fff" font-family="Montserrat-Bold, Montserrat" font-weight="700">9</text>
+  <line x1="343.5" y1="35.5" x2="31.5" y2="347.5" fill="none" stroke="#4d511b" stroke-miterlimit="10" stroke-width="11"/>
+</svg>

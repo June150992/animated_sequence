@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1108" viewBox="0 0 1920 1108">
+  <defs>
+    <clipPath id="clip-path">
+      <path d="M372.69,1072.83c-218.41-43.46-213-170.6-307.52-243.41S88,466.48,270.55,379.55,807.36,236.11,865,110.05s523.77-9.78,596.57,0,190.17-145.61,327.09-52.16S1839.69,393,1829.9,539.28c0,0,120.62,292.31-67.37,434.67s-143.44,108.66-341.21,128.22S1230.07,985.9,1052.94,994.59,591.11,1116.3,372.69,1072.83Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip-path)">
+    <rect x="-0.5" y="804" width="1921" height="130" fill="#64a370"/>
+    <rect x="-1" y="923" width="1921" height="185" fill="#497f4e"/>
+    <circle cx="1693" cy="194" r="114" fill="#e4ed9f"/>
+    <rect x="-2" y="545" width="1922" height="259" fill="#edb266"/>
+    <rect x="-1" y="286" width="1922" height="259" fill="#f2e8aa"/>
+    <rect x="-1" y="28" width="1922" height="259" fill="#a2d9ea"/>
+    <rect x="-5" y="760" width="865" height="350" fill="#a08472"/>
+  </g>
+</svg>

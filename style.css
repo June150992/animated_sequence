@@ -12,6 +12,7 @@
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
 }
+
 .fade_out {
     animation: fadeout_kf 1s linear forwards;
 }
@@ -41,6 +42,7 @@
         transform: scale(1.0);
     }
 }
+
 #sun {
     position: absolute;
     background-image: url(assets/sun.svg);
@@ -95,6 +97,115 @@
     }
 }
 
+#step_1 {
+position: absolute;
+font-family: 'Montserrat', sans-serif;
+background-image: url(assets/1.svg);
+background-size: 100%;
+background-repeat: no-repeat;
+width: 3vw;
+height: 6vh;
+top: 65vh;
+right: 25vw;;
+}
+
+#step_2 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(assets/2.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 3vw;
+    height: 6vh;
+    top: 65vh;
+    right: 25vw;;
+    }
+
+ #step_3 {
+        position: absolute;
+        font-family: 'Montserrat', sans-serif;
+        background-image: url(assets/3.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 3vw;
+        height: 6vh;
+        top: 65vh;
+        right: 25vw;;
+}
+     
+#step_4 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(assets/4.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 3vw;
+    height: 6vh;
+    top: 65vh;
+    right: 25vw;;
+    }
+
+#step_5 {
+        position: absolute;
+        font-family: 'Montserrat', sans-serif;
+        background-image: url(assets/5.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 3vw;
+        height: 6vh;
+        top: 65vh;
+        right: 25vw;;
+}
+
+#step_6 {
+            position: absolute;
+            font-family: 'Montserrat', sans-serif;
+            background-image: url(assets/6.svg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            width: 3vw;
+            height: 6vh;
+            top: 65vh;
+            right: 25vw;;
+ }
+            
+#step_7 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(assets/7.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 3vw;
+    height: 6vh;
+    top: 65vh;
+    right: 25vw;;
+ }
+
+ #step_8 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(assets/8.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 3vw;
+    height: 6vh;
+    top: 65vh;
+    right: 25vw;;
+}
+
+#step_9 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(assets/9.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 3vw;
+    height: 6vh;
+    top: 65vh;
+    right: 25vw;;
+    }
+
+
 #next_1 {
     position: absolute;
     font-family: 'Montserrat', sans-serif;
@@ -103,7 +214,7 @@
     background-color: #797F41;
     color: white;
     top: 0vw;
-    right: 56vw;
+    right: 45vw;
     border: none;
     cursor: pointer;
 }
@@ -115,7 +226,7 @@
     background-color: #797F41;
     color: white;
     top: 0vw;
-    right: 56vw;
+    right: 45vw;
     border: none;
     cursor: pointer;
 }
@@ -127,7 +238,7 @@
     background-color: #797F41;
     color: white;
     top: 0vw;
-    right: 56vw;
+    right: 45vw;
     border: none;
     cursor: pointer;
 }
@@ -140,7 +251,7 @@
     background-color: #797F41;
     color: white;
     top: 0vw;
-    right: 56vw;
+    right: 45vw;
     border: none;
     cursor: pointer;
 }
@@ -152,7 +263,7 @@
     background-color: #797F41;
     color: white;
     top: 0vw;
-    right: 56vw;
+    right: 45vw;
     border: none;
     cursor: pointer;
 }
@@ -165,11 +276,36 @@
     background-color: #797F41;
     color: white;
     top: 0vw;
-    right: 56vw;
+    right: 45vw;
     border: none;
     cursor: pointer;
 }
 
+#next_7 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 15px 20px;
+    background-color: #797F41;
+    color: white;
+    top: 0vw;
+    right: 45vw;
+    border: none;
+    cursor: pointer;
+}
+
+#next_8 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 15px 20px;
+    background-color: #797F41;
+    color: white;
+    top: 0vw;
+    right: 45vw;
+    border: none;
+    cursor: pointer;
+}
 #reload {
     position: absolute;
     font-family: 'Montserrat', sans-serif;
@@ -178,7 +314,7 @@
     background-color: #4D511B;
     color: white;
     top: 0vw;
-    right: 40vw;
+    right: 55vw;
     border: none; 
     cursor: pointer;
 }
@@ -320,6 +456,85 @@
     right: 20vw;
     z-index: 3;
 }
+#screen_7 {
+    position: absolute;
+    width: 60vw;
+    height: 75vh;
+    background-image: url('screens/screen_5.svg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    top: 5vw;
+    right: 5vw;
+}
+
+#txt_7 {
+    position: absolute;
+    background-image: url('txtbubbles/txt_7.svg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    width: 15vw;
+    height: 30vh;
+    top: 3vw;
+    right: 20vw;
+    z-index: 3;
+}
+
+#screen_8 {
+    position: absolute;
+    width: 60vw;
+    height: 75vh;
+    background-image: url('screens/screen_8.svg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    top: 5vw;
+    right: 5vw;
+}
+
+#txt_8 {
+    position: absolute;
+    background-image: url('txtbubbles/txt_8.svg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    width: 15vw;
+    height: 30vh;
+    top: 3vw;
+    right: 20vw;
+    z-index: 3;
+}
+
+#screen_9 {
+    position: absolute;
+    width: 60vw;
+    height: 75vh;
+    background-image: url('screens/screen_9.svg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    top: 5vw;
+    right: 5vw;
+}
+
+#txt_9 {
+    position: absolute;
+    background-image: url('txtbubbles/txt_9.svg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    width: 15vw;
+    height: 30vh;
+    top: 3vw;
+    right: 20vw;
+    z-index: 3;
+}
+
+#still_cup {
+position: absolute;
+background-size: 100%;
+background-repeat: no-repeat;
+background-image: url(assets/still_cup.svg);
+width: 4vw;
+height: 8vh;
+top: 39vh;
+right: 40vw;
+}
 
 #hand {
 position: absolute;
@@ -329,7 +544,7 @@ background-size: 100%;
 background-repeat: no-repeat;
 width: 5vw;
 height: 10vh;
-top: 53vh;
+top: 45vh;
 right: 35vw;
 }
 
@@ -380,6 +595,15 @@ to {
         background-position: -400% 0;
     }
 }
+@keyframes painting_kf {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+}
 
 #can {
     animation-name: character_kf;
@@ -397,6 +621,22 @@ to {
     background-size: 300% 100%;
 }
 
+#painting {
+    animation-name: painting_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: steps(2);
+    display: inline-block;
+    position: absolute;
+    background-image: url(assets/painting.svg);
+    height: 24vw;
+    width: 12vw;
+    top: 15vw;
+    right: 35vw;
+    background-size: 200% 100%;
+}
+
 #fire {
     animation-name: character_kf;
     animation-duration: 2s;
@@ -412,7 +652,17 @@ to {
     right: 32vw;
     background-size: 300% 100%;
 }
-
+#cup_done {
+    display: inline-block;
+    position: absolute;
+    background-image: url(assets/cup_done.svg);
+    background-repeat: no-repeat;
+    height: 14vw;
+    width: 7vw;
+    top: 25vw;
+    right: 40vw;
+    background-size: 100%;
+}
 #character {
     animation-name: character_kf;
     animation-duration: 2s;
@@ -428,6 +678,23 @@ to {
     right: 9.5vw;
     background-size: 300% 100%;
 }
+
+#char_victory {
+    animation-name: character_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: steps(3);
+    display: inline-block;
+    position: absolute;
+    background-image: url(assets/char_victory.svg);
+    height: 38vw;
+    width: 18vw;
+    top: 5.5vw;
+    right: 6vw;
+    background-size: 300% 100%;
+}
+
 #char_idea {
     animation-name: character_idea_kf;
     animation-duration: 3.5s;
