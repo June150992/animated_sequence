@@ -7,7 +7,7 @@ function showScreen() {
 
 }
 
-const musicButton = document.querySelector(".music");
+const musicButton = document.querySelector("#music");
 const music = document.querySelector("#playmusic");
 const musicOnButton = musicButton.querySelector(".music_on_button");
 const musicOffButton = musicButton.querySelector(".music_off_button");

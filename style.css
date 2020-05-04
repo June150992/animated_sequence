@@ -95,7 +95,7 @@ font-weight: 100;
     background-repeat: no-repeat;
     height: 5vw;
     width: 5vw;
-    top: 7vw;
+    top: 5vw;
     left: 20vw;
     background-size: 100%;
     z-index: 1;
@@ -107,7 +107,7 @@ font-weight: 100;
     animation-delay: 1s;
     height: 3vw;
     width: 3vw;
-    top: 10vw;
+    top: 7vw;
     left: 20vw;
     background-size: 100%;
     z-index: 2;
@@ -123,7 +123,7 @@ font-weight: 100;
 
 @keyframes flying {
     from {
-        left: 0vw;
+        left: 13vw;
     }
 
     to {
@@ -156,12 +156,14 @@ font-weight: 100;
     float: right;
     margin-right: 20vw;
 }
-
-.music {
+#music img {
+    width: 60px;
+}
+#music {
     opacity: 1;
     position: absolute;
-    top: 22.3vh;
-    right: 34vw;
+    top: 28vh;
+    right: 37vw;
     z-index: 10;
     animation: fade_in_kf 1s linear;
     animation-fill-mode: forwards;
@@ -288,105 +290,60 @@ left: 28vw;
 
 #next_1 {
     position: relative;
-    top: -8vh;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    padding: 15px 20px;
-    background-color: #797F41;
-    color: white;
-    border: none;
     cursor: pointer;
+    top: -3vh;
+    right: -8vw;
 }
 #next_2 {
     position: relative;
-    top: -8vh;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    padding: 15px 20px;
-    background-color: #797F41;
-    color: white;
-    border: none;
     cursor: pointer;
+    top: -3vh;
+    right: -8vw;
 }
 #next_3 {
     position: relative;
-    top: -8vh;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    padding: 15px 20px;
-    background-color: #797F41;
-    color: white;
-    border: none;
     cursor: pointer;
+    top: -3vh;
+    right: -8vw;
 }
 
 #next_4 {
     position: relative;
-    top: -8vh;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    padding: 15px 20px;
-    background-color: #797F41;
-    color: white;
-    border: none;
     cursor: pointer;
+    top: -3vh;
+    right: -8vw;
 }
 #next_5 {
     position: relative;
-    top: -8vh;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    padding: 15px 20px;
-    background-color: #797F41;
-    color: white;
-    border: none;
     cursor: pointer;
+    top: -3vh;
+    right: -8vw;
 }
 
 #next_6 {
     position: relative;
-    top: -8vh;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    padding: 15px 20px;
-    background-color: #797F41;
-    color: white;
-    border: none;
     cursor: pointer;
+    top: -3vh;
+    right: -8vw;
 }
 
 #next_7 {
     position: relative;
-    top: -8vh;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    padding: 15px 20px;
-    background-color: #797F41;
-    color: white;
-    border: none;
     cursor: pointer;
+    top: -3vh;
+    right: -8vw;
 }
 
 #next_8 {
     position: relative;
-    top: -8vh;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    padding: 15px 20px;
-    background-color: #797F41;
-    color: white;
-    border: none;
     cursor: pointer;
+    top: -3vh;
+    right: -8vw;
 }
 #reload {
     position: relative;
-    top: -8vh;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    padding: 15px 20px;
-    background-color: #4D511B;
-    color: white;
-    border: none; 
+    top: 3vh;
+    left: -4vw;
     cursor: pointer;
 }
 
@@ -672,7 +629,7 @@ to {
     }
 
     100% {
-        background-position: -200% 0;
+        background-position: -300% 0;
     }
 }
 
@@ -694,10 +651,10 @@ to {
 
 #painting {
     animation-name: painting_kf;
-    animation-duration: 2s;
+    animation-duration: 2.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    animation-timing-function: steps(2);
+    animation-timing-function: steps(3);
     display: inline-block;
     position: absolute;
     background-image: url(assets/painting.svg);
@@ -705,7 +662,7 @@ to {
     width: 10vw;
     top: 12vw;
     right: 33vw;
-    background-size: 200% 100%;
+    background-size: 300% 100%;
 }
 
 #fire {
@@ -719,7 +676,7 @@ to {
     background-image: url(assets/fire.svg);
     height: 10vw;
     width: 5vw;
-    top: 9.5vw;
+    top: 9.3vw;
     right: 26.5vw;
     background-size: 300% 100%;
 }
