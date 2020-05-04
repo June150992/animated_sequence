@@ -3,16 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animeret Sekvens</title>
+    <title>OM MIG - Kaysen Keramik</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
 </head>
 <body>
     
     <header>
         <nav id="topnav">
-        <img src="assets/green.png" style="width: 200px; margin-left: 15vw;"><a href="https://webshop.creativegamerstuff.dk/"></a></img>
+            <a href="https://webshop.creativegamerstuff.dk/"><img src="assets/green.png" style="width: 200px; margin-left: 15vw;"></img></a>
         <ul>
+            <li><img src="assets/kurv.PNG" style="margin-top: -1vh"><a href="https://webshop.creativegamerstuff.dk/kurv/"></a></img></li>
             <li><a href="https://webshop.creativegamerstuff.dk/sekvens/" class="active">OM OS</a></li>
             <li><a href="https://webshop.creativegamerstuff.dk/kontakt/" style="color: #4D511B;">KONTAKT</a></li>
             <li><a href="https://webshop.creativegamerstuff.dk/store/" style="color: #4D511B;">BUTIK</a></li>
@@ -21,10 +41,23 @@
     </nav>
     <nav id="subnav">
             <p class="left">ADRESSE</p>
-            <p class="middle">SOCIAL ICONS</p>
+            <a href="https://www.instagram.com/kaysen_keramik/" target="blank"><img class="middle" src="txtbubbles/instagram_icon.svg"></img></a>
             <p class="right">TELEFON</p>
     </nav>
     </header>
+
+    <div id="content">
+     <h1>OM MIG</h1>
+    <p>
+        Nunc gravida, nisi a tristique dignissim, ligula purus rutrum arcu, in commodo risus libero ac nisi. Nunc dictum leo nisl, in maximus urna euismod ac. 
+        Nullam dictum porttitor turpis non luctus. Phasellus eget laoreet leo. Proin quis hendrerit felis, quis auctor nulla. Mauris eu sagittis diam, eget auctor nisi. 
+        Proin posuere tristique urna, non sagittis lorem auctor at. Curabitur quis felis ultrices, iaculis nunc at, dignissim sapien.
+    </p>
+</div>
+    <div id="instagallery">
+        <h1>FØLG MIG PÅ INSTAGRAM</h1>
+        <a href="https://www.instagram.com/kaysen_keramik/"><img src="assets/gallery.png"></img></a>
+    </div>
 
     <div class="music">
         <audio src="assets/music.mp3" id="playmusic" loop></audio>
@@ -51,7 +84,7 @@
         <div id="character"></div>
         <div id="pot_1"></div>
         <button id="next_1" class="pulse">NÆSTE</button>
-        <button type="button" id="reload" onClick="reloadThePage()">TILBAGE TIL START</button>
+        <button type="button" id="reload" onClick="reloadThePage()" class="pulse">TILBAGE TIL START</button>
     </div>
     <div id="screen_2" class="hide">
         <div id="step_2"></div>
@@ -60,9 +93,9 @@
         <div id="cloud_2" class="flying"></div>
         <div id="sun" class="pulse"></div>
         <div id="character"></div>
-        <div id="pot_2"></div>
+        <div id="pot_1"></div>
         <button id="next_2" class="pulse">NÆSTE</button>
-        <button type="button" id="reload" onClick="reloadThePage()">TILBAGE TIL START</button>
+        <button type="button" id="reload" onClick="reloadThePage()" class="pulse">TILBAGE TIL START</button>
     </div>
     <div id="screen_3" class="hide">
         <div id="step_3"></div>
@@ -73,7 +106,7 @@
         <div id="char_idea"></div>
         <div id="pot_1"></div>
         <button id="next_3" class="pulse">NÆSTE</button>
-        <button type="button" id="reload" onClick="reloadThePage()">TILBAGE TIL START</button>
+        <button type="button" id="reload" onClick="reloadThePage()" class="pulse">TILBAGE TIL START</button>
     </div>
     <div id="screen_4" class="hide">
         <div id="step_4"></div>
@@ -82,7 +115,7 @@
         <div id="hand"></div>
         <div id="character"></div>
         <button id="next_4" class="pulse">NÆSTE</button>
-        <button type="button" id="reload" onClick="reloadThePage()">TILBAGE TIL START</button>
+        <button type="button" id="reload" onClick="reloadThePage()" class="pulse">TILBAGE TIL START</button>
     </div>
     <div id="screen_5" class="hide">
         <div id="step_5"></div>
@@ -91,7 +124,7 @@
         <div id="fire"></div>
         <div id="still_cup"></div> 
         <button id="next_5" class="pulse">NÆSTE</button>
-        <button type="button" id="reload" onClick="reloadThePage()">TILBAGE TIL START</button>
+        <button type="button" id="reload" onClick="reloadThePage()" class="pulse">TILBAGE TIL START</button>
     </div>
     <div id="screen_6" class="hide">
         <div id="step_6"></div>
@@ -99,7 +132,7 @@
         <div id="character"></div>
         <div id="can"></div>
         <button id="next_6" class="pulse">NÆSTE</button>
-        <button type="button" id="reload" onClick="reloadThePage()">TILBAGE TIL START</button>
+        <button type="button" id="reload" onClick="reloadThePage()" class="pulse">TILBAGE TIL START</button>
     </div>
     <div id="screen_7" class="hide">
         <div id="step_7"></div>
@@ -108,7 +141,7 @@
         <div id="fire"></div>
         <div id="still_cup"></div> 
         <button id="next_7" class="pulse">NÆSTE</button>
-        <button type="button" id="reload" onClick="reloadThePage()">TILBAGE TIL START</button>
+        <button type="button" id="reload" onClick="reloadThePage()" class="pulse">TILBAGE TIL START</button>
     </div>
     <div id="screen_8" class="hide">
         <div id="step_8"></div>
@@ -118,7 +151,7 @@
           <div id="painting"></div>
           <div id="txt_8"></div>
           <button id="next_8" class="pulse">NÆSTE</button>
-          <button type="button" id="reload" onClick="reloadThePage()">TILBAGE TIL START</button>
+          <button type="button" id="reload" onClick="reloadThePage()" class="pulse">TILBAGE TIL START</button>
     </div>
     <div id="screen_9" class="hide">
         <div id="step_9"></div>
@@ -126,7 +159,7 @@
         <div id="txt_9"></div>
         <div id="fire"></div>
         <div id="cup_done"></div>
-        <button type="button" id="reload" onClick="reloadThePage()">TILBAGE TIL START</button>
+        <button type="button" id="reload" onClick="reloadThePage()" class="pulse">TILBAGE TIL START</button>
     </div>
 
     <script src="script.js"></script>

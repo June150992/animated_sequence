@@ -32,7 +32,7 @@ font-size: 1.1em;
 }
 
 #topnav ul {
-    margin-right: 10vw;
+    margin-right: 2vw;
 }
 #topnav ul li a {
     text-decoration: none;
@@ -116,7 +116,7 @@ font-weight: 100;
 
 .flying {
     animation-name: flying;
-    animation-duration: 12s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -127,7 +127,7 @@ font-weight: 100;
     }
 
     to {
-        left: 60vw;
+        left: 50vw;
     }
 }
 #subnav {
@@ -137,6 +137,7 @@ font-weight: 100;
     width: 100%;
     background-color: #ACAF8F;
     color: white;
+    font-family: 'Montserrat',sans-serif;
 }
 #subnav .left {
     float: left;
@@ -144,22 +145,23 @@ font-weight: 100;
 }
 
 #subnav .middle {
-    text-align: center;
-    margin-right: 20vw;
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 0.7vh;
+    width: 35px;
+    cursor: pointer;
 }
 
 #subnav .right {
     float: right;
     margin-right: 20vw;
-  margin-top: -3.8vh
 }
 
 .music {
-    width: 100px;
     opacity: 1;
     position: absolute;
-    top: 90vh;
-    right: 35vw;
+    top: 22.3vh;
+    right: 34vw;
     z-index: 10;
     animation: fade_in_kf 1s linear;
     animation-fill-mode: forwards;
@@ -177,234 +179,225 @@ font-weight: 100;
 }
 
 #step_1 {
-position: absolute;
+position: relative;
 background-image: url(assets/1.svg);
 background-size: 100%;
 background-repeat: no-repeat;
 width: 3vw;
 height: 6vh;
-top: 72vh;
-right: 25vw;;
+top: 55vh;
+left: 28vw;
 }
 
 #step_2 {
-    position: absolute;
+    position: relative;
     font-family: 'Montserrat', sans-serif;
     background-image: url(assets/2.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 3vw;
     height: 6vh;
-    top: 72vh;
-    right: 25vw;;
+    top: 55vh;
+    left: 28vw;
     }
 
  #step_3 {
-        position: absolute;
+    position: relative;
         font-family: 'Montserrat', sans-serif;
         background-image: url(assets/3.svg);
         background-size: 100%;
         background-repeat: no-repeat;
         width: 3vw;
         height: 6vh;
-        top: 72vh;
-        right: 25vw;;
+        top: 55vh;
+        left: 28vw;
 }
      
 #step_4 {
-    position: absolute;
+    position: relative;
     font-family: 'Montserrat', sans-serif;
     background-image: url(assets/4.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 3vw;
     height: 6vh;
-    top: 72vh;
-    right: 25vw;;
+    top: 55vh;
+    left: 28vw;
     }
 
 #step_5 {
-        position: absolute;
+        position: relative;
         font-family: 'Montserrat', sans-serif;
         background-image: url(assets/5.svg);
         background-size: 100%;
         background-repeat: no-repeat;
         width: 3vw;
         height: 6vh;
-        top: 72vh;
-        right: 25vw;;
+        top: 55vh;
+        left: 28vw;
 }
 
 #step_6 {
-            position: absolute;
+            position: relative;
             font-family: 'Montserrat', sans-serif;
             background-image: url(assets/6.svg);
             background-size: 100%;
             background-repeat: no-repeat;
             width: 3vw;
             height: 6vh;
-            top: 72vh;
-            right: 25vw;;
+            top: 55vh;
+            left: 28vw;
  }
             
 #step_7 {
-    position: absolute;
+    position: relative;
     font-family: 'Montserrat', sans-serif;
     background-image: url(assets/7.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 3vw;
     height: 6vh;
-    top: 72vh;
-    right: 25vw;;
+    top: 55vh;
+    left: 28vw;
  }
 
  #step_8 {
-    position: absolute;
+    position: relative;
     font-family: 'Montserrat', sans-serif;
     background-image: url(assets/8.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 3vw;
     height: 6vh;
-    top: 72vh;
-    right: 25vw;;
+    top: 55vh;
+    left: 28vw;
 }
 
 #step_9 {
-    position: absolute;
+    position: relative;
     font-family: 'Montserrat', sans-serif;
     background-image: url(assets/9.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 3vw;
     height: 6vh;
-    top: 72vh;
-    right: 25vw;;
+    top: 55vh;
+    left: 28vw;
     }
 
 
 #next_1 {
-    position: absolute;
+    position: relative;
+    top: -8vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
-    top: 73vh;
-    right: 38vw;
     border: none;
     cursor: pointer;
 }
 #next_2 {
-    position: absolute;
+    position: relative;
+    top: -8vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
-    top: 73vh;
-    right: 38vw;
     border: none;
     cursor: pointer;
 }
 #next_3 {
-    position: absolute;
+    position: relative;
+    top: -8vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
-    top: 73vh;
-    right: 38vw;
     border: none;
     cursor: pointer;
 }
 
 #next_4 {
-    position: absolute;
+    position: relative;
+    top: -8vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
-    top: 73vh;
-    right: 38vw;
     border: none;
     cursor: pointer;
 }
 #next_5 {
-    position: absolute;
+    position: relative;
+    top: -8vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
-    top: 73vh;
-    right: 38vw;
     border: none;
     cursor: pointer;
 }
 
 #next_6 {
-    position: absolute;
+    position: relative;
+    top: -8vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
-    top: 73vh;
-    right: 38vw;
     border: none;
     cursor: pointer;
 }
 
 #next_7 {
-    position: absolute;
+    position: relative;
+    top: -8vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
-    top: 73vh;
-    right: 38vw;
     border: none;
     cursor: pointer;
 }
 
 #next_8 {
-    position: absolute;
+    position: relative;
+    top: -8vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding: 15px 20px;
     background-color: #797F41;
     color: white;
-    top: 73vh;
-    right: 38vw;
     border: none;
     cursor: pointer;
 }
 #reload {
-    position: absolute;
+    position: relative;
+    top: -8vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding: 15px 20px;
     background-color: #4D511B;
     color: white;
-    top: 73vh;
-    right: 45vw;
     border: none; 
     cursor: pointer;
 }
 
 #screen_1 {
     position: absolute;
-    width: 60vw;
+    width: 50vw;
     height: 75vh;
     background-image: url('screens/screen_1.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 8vw;
+    top: 12vw;
     right: 5vw;
 }
 
@@ -413,21 +406,21 @@ right: 25vw;;
     background-image: url('txtbubbles/txt_1.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    width: 15vw;
-    height: 30vh;
+    width: 12vw;
+    height: 22vh;
     top: 8vw;
-    right: 23vw;
+    right: 18vw;
     z-index: 3;
 }
 
 #screen_2 {
     position: absolute;
-    width: 60vw;
+    width: 50vw;
     height: 75vh;
     background-image: url('screens/screen_2.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 8vw;
+    top: 12vw;
     right: 5vw;
 }
 
@@ -436,21 +429,21 @@ right: 25vw;;
     background-image: url('txtbubbles/txt_2.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    width: 15vw;
-    height: 30vh;
+    width: 12vw;
+    height: 22vh;
     top: 8vw;
-    right: 23vw;
+    right: 18vw;
     z-index: 3;
 }
 
 #screen_3 {
     position: absolute;
-    width: 60vw;
+    width: 50vw;
     height: 75vh;
     background-image: url('screens/screen_3.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 8vw;
+    top: 12vw;
     right: 5vw;
 }
 
@@ -459,21 +452,21 @@ right: 25vw;;
     background-image: url('txtbubbles/txt_3.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    width: 15vw;
-    height: 30vh;
+    width: 12vw;
+    height: 22vh;
     top: 8vw;
-    right: 23vw;
+    right: 18vw;
     z-index: 3;
 }
 
 #screen_4 {
     position: absolute;
-    width: 60vw;
+    width: 50vw;
     height: 75vh;
     background-image: url('screens/screen_4.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 8vw;
+    top: 12vw;
     right: 5vw;
 }
 
@@ -482,21 +475,21 @@ right: 25vw;;
     background-image: url('txtbubbles/txt_4.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    width: 15vw;
-    height: 30vh;
-    top: 5vw;
-    right: 22vw;
+    width: 12vw;
+    height: 22vh;
+    top: 3vw;
+    right: 17vw;
     z-index: 3;
 }
 
 #screen_5 {
     position: absolute;
-    width: 60vw;
+    width: 50vw;
     height: 75vh;
     background-image: url('screens/screen_5.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 8vw;
+    top: 12vw;
     right: 5vw;
 }
 
@@ -505,21 +498,21 @@ right: 25vw;;
     background-image: url('txtbubbles/txt_5.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    width: 15vw;
-    height: 30vh;
+    width: 12vw;
+    height: 22vh;
     top: 3vw;
-    right: 20vw;
+    right: 18vw;
     z-index: 3;
 }
 
 #screen_6 {
     position: absolute;
-    width: 60vw;
+    width: 50vw;
     height: 75vh;
     background-image: url('screens/screen_6.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 8vw;
+    top: 12vw;
     right: 5vw;
 }
 
@@ -528,20 +521,20 @@ right: 25vw;;
     background-image: url('txtbubbles/txt_6.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    width: 15vw;
-    height: 30vh;
-    top: 3vw;
-    right: 20vw;
+    width: 12vw;
+    height: 22vh;
+    top: 5vw;
+    right: 18vw;
     z-index: 3;
 }
 #screen_7 {
     position: absolute;
-    width: 60vw;
+    width: 50vw;
     height: 75vh;
     background-image: url('screens/screen_5.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 8vw;
+    top: 12vw;
     right: 5vw;
 }
 
@@ -550,21 +543,21 @@ right: 25vw;;
     background-image: url('txtbubbles/txt_7.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    width: 15vw;
-    height: 30vh;
+    width: 12vw;
+    height: 22vh;
     top: 3vw;
-    right: 20vw;
+    right: 18vw;
     z-index: 3;
 }
 
 #screen_8 {
     position: absolute;
-    width: 60vw;
+    width: 50vw;
     height: 75vh;
     background-image: url('screens/screen_8.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 8vw;
+    top: 12vw;
     right: 5vw;
 }
 
@@ -573,21 +566,21 @@ right: 25vw;;
     background-image: url('txtbubbles/txt_8.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    width: 15vw;
-    height: 30vh;
-    top: 3vw;
-    right: 20vw;
+    width: 12vw;
+    height: 22vh;
+    top: 5vw;
+    right: 18vw;
     z-index: 3;
 }
 
 #screen_9 {
     position: absolute;
-    width: 60vw;
+    width: 50vw;
     height: 75vh;
     background-image: url('screens/screen_9.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 8vw;
+    top: 12vw;
     right: 5vw;
 }
 
@@ -596,10 +589,10 @@ right: 25vw;;
     background-image: url('txtbubbles/txt_9.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    width: 15vw;
-    height: 30vh;
+    width: 12vw;
+    height: 22vh;
     top: 3vw;
-    right: 20vw;
+    right: 18vw;
     z-index: 3;
 }
 
@@ -610,8 +603,8 @@ background-repeat: no-repeat;
 background-image: url(assets/still_cup.svg);
 width: 4vw;
 height: 8vh;
-top: 39vh;
-right: 40vw;
+top: 31vh;
+right: 34vw;
 }
 
 #hand {
@@ -620,10 +613,10 @@ animation: pointing 1.5s ease infinite;
 background-image: url(assets/hand.svg);
 background-size: 100%;
 background-repeat: no-repeat;
-width: 5vw;
-height: 10vh;
-top: 50vh;
-right: 35vw;
+width: 3vw;
+height: 6vh;
+top: 42vh;
+right: 28vw;
 }
 
 @keyframes pointing {
@@ -636,10 +629,10 @@ right: 35vw;
 
     animation: rotate 2s infinite linear;
     position: absolute;
-    height: 7vw;
-    width: 6.5vw;
-    top: 20vw;
-    right: 26.5vw;
+    height: 5vw;
+    width: 4.5vw;
+    top: 17vw;
+    right: 22.5vw;
     background-size: 100%;
     background-repeat: no-repeat;
     background-image: url(assets/ceramic.svg);
@@ -692,10 +685,10 @@ to {
     display: inline-block;
     position: absolute;
     background-image: url(assets/can.svg);
-    height: 20vw;
-    width: 10vw;
-    top: 11.5vw;
-    right: 39vw;
+    height: 19vw;
+    width: 9vw;
+    top: 8vw;
+    right: 32.5vw;
     background-size: 300% 100%;
 }
 
@@ -708,10 +701,10 @@ to {
     display: inline-block;
     position: absolute;
     background-image: url(assets/painting.svg);
-    height: 24vw;
-    width: 12vw;
-    top: 15vw;
-    right: 35vw;
+    height: 20vw;
+    width: 10vw;
+    top: 12vw;
+    right: 33vw;
     background-size: 200% 100%;
 }
 
@@ -724,10 +717,10 @@ to {
     display: inline-block;
     position: absolute;
     background-image: url(assets/fire.svg);
-    height: 12vw;
-    width: 6vw;
-    top: 11.3vw;
-    right: 32vw;
+    height: 10vw;
+    width: 5vw;
+    top: 9.5vw;
+    right: 26.5vw;
     background-size: 300% 100%;
 }
 #cup_done {
@@ -735,10 +728,10 @@ to {
     position: absolute;
     background-image: url(assets/cup_done.svg);
     background-repeat: no-repeat;
-    height: 14vw;
-    width: 7vw;
-    top: 25vw;
-    right: 40vw;
+    height: 10vw;
+    width: 5vw;
+    top: 22vw;
+    right: 35vw;
     background-size: 100%;
 }
 #character {
@@ -750,10 +743,10 @@ to {
     display: inline-block;
     position: absolute;
     background-image: url(assets/character.svg);
-    height: 30vw;
-    width: 12vw;
-    top: 8.8vw;
-    right: 9.5vw;
+    height: 20vw;
+    width: 10vw;
+    top: 10vw;
+    right: 8vw;
     background-size: 300% 100%;
 }
 
@@ -766,10 +759,10 @@ to {
     display: inline-block;
     position: absolute;
     background-image: url(assets/char_victory.svg);
-    height: 38vw;
-    width: 18vw;
+    height: 30vw;
+    width: 15vw;
     top: 5.5vw;
-    right: 6vw;
+    right: 4.8vw;
     background-size: 300% 100%;
 }
 
@@ -779,14 +772,13 @@ to {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-timing-function: steps(4);
-    animation-delay: 8s;
     display: inline-block;
     position: absolute;
     background-image: url(assets/char_idea.svg);
-    height: 30vw;
-    width: 15vw;
-    top: 9.2vw;
-    right: 6.5vw;
+    height: 22vw;
+    width: 12vw;
+    top: 9.7vw;
+    right: 6vw;
     background-size: 400% 100%;
 }
 
@@ -796,18 +788,27 @@ to {
     background-repeat: no-repeat;
     height: 16vw;
     width: 6vw;
-    top: 18vw;
-    right: 40vw;
+    top: 12vw;
+    right: 38vw;
     background-size: 100%;
 }
-#pot_2 {
+#content {
+ position: absolute;
+ top: 20vh;
+ width: 30vw;
+ left: 5vw;
+ text-align: center;
+ font-family: 'Montserrat',sans-serif;
+}
+#instagallery h1 {
     position: absolute;
-    background-image: url(assets/pot.svg);
-    background-repeat: no-repeat;
-    height: 22vw;
-    width: 9vw;
-    top: 12vw;
-    right: 40vw;
-    background-size: 100%;
-    z-index: 4;
+    top: 50vh;
+    left: 9vw;
+    font-family: 'Montserrat',sans-serif;
+}
+#instagallery img {
+    position: absolute;
+    width: 600px;
+    top: 60vh;
+    left: 5vw;
 }
