@@ -95,7 +95,7 @@ font-weight: 100;
     background-repeat: no-repeat;
     height: 5vw;
     width: 5vw;
-    top: 5vw;
+    top: 7vw;
     left: 20vw;
     background-size: 100%;
     z-index: 1;
@@ -107,7 +107,7 @@ font-weight: 100;
     animation-delay: 1s;
     height: 3vw;
     width: 3vw;
-    top: 7vw;
+    top: 9vw;
     left: 20vw;
     background-size: 100%;
     z-index: 2;
@@ -123,7 +123,7 @@ font-weight: 100;
 
 @keyframes flying {
     from {
-        left: 13vw;
+        left: 10vw;
     }
 
     to {
@@ -162,8 +162,8 @@ font-weight: 100;
 #music {
     opacity: 1;
     position: absolute;
-    top: 28vh;
-    right: 37vw;
+    top: 32vh;
+    right: 41vw;
     z-index: 10;
     animation: fade_in_kf 1s linear;
     animation-fill-mode: forwards;
@@ -292,58 +292,58 @@ left: 28vw;
     position: relative;
     cursor: pointer;
     top: -3vh;
-    right: -8vw;
+    right: -15vw;
 }
 #next_2 {
     position: relative;
     cursor: pointer;
     top: -3vh;
-    right: -8vw;
+    right: -15vw;
 }
 #next_3 {
     position: relative;
     cursor: pointer;
     top: -3vh;
-    right: -8vw;
+    right: -15vw;
 }
 
 #next_4 {
     position: relative;
     cursor: pointer;
     top: -3vh;
-    right: -8vw;
+    right: -15vw;
 }
 #next_5 {
     position: relative;
     cursor: pointer;
     top: -3vh;
-    right: -8vw;
+    right: -15vw;
 }
 
 #next_6 {
     position: relative;
     cursor: pointer;
     top: -3vh;
-    right: -8vw;
+    right: -15vw;
 }
 
 #next_7 {
     position: relative;
     cursor: pointer;
     top: -3vh;
-    right: -8vw;
+    right: -15vw;
 }
 
 #next_8 {
     position: relative;
     cursor: pointer;
     top: -3vh;
-    right: -8vw;
+    right: -15vw;
 }
 #reload {
     position: relative;
-    top: 3vh;
-    left: -4vw;
+    top: 7vh;
+    left: -1vw;
     cursor: pointer;
 }
 
@@ -753,19 +753,19 @@ to {
  position: absolute;
  top: 20vh;
  width: 30vw;
- left: 5vw;
+ left: 7vw;
  text-align: center;
  font-family: 'Montserrat',sans-serif;
 }
 #instagallery h1 {
     position: absolute;
     top: 50vh;
-    left: 9vw;
+    left: 11vw;
     font-family: 'Montserrat',sans-serif;
 }
 #instagallery img {
     position: absolute;
     width: 600px;
     top: 60vh;
-    left: 5vw;
+    left: 7vw;
 }
