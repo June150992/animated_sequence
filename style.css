@@ -1,3 +1,8 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 .hide {
     visibility: hidden;
 }
@@ -11,6 +16,35 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
+}
+
+.active {
+    font-weight: 700;
+    color: #efbf5e;
+}
+
+#topnav {
+position: absolute;
+height: 10vh;
+width: 100%;
+background-color: white;
+font-size: 1.1em;
+}
+
+#topnav ul {
+    margin-right: 10vw;
+}
+#topnav ul li a {
+    text-decoration: none;
+}
+#topnav ul li {
+position: relative;
+top: -8vh;
+float: right;
+list-style: none;
+margin-right: 20px;
+font-family: 'Montserrat',sans-serif;
+font-weight: 100;
 }
 
 .fade_out {
@@ -96,17 +130,41 @@
         left: 60vw;
     }
 }
+#subnav {
+    position: absolute;
+    height: 5vh;
+    top: 12vh;
+    width: 100%;
+    background-color: #ACAF8F;
+    color: white;
+}
+#subnav .left {
+    float: left;
+    margin-left: 20vw;
+}
+
+#subnav .middle {
+    text-align: center;
+    margin-right: 20vw;
+}
+
+#subnav .right {
+    float: right;
+    margin-right: 20vw;
+  margin-top: -3.8vh
+}
 
 .music {
     width: 100px;
     opacity: 1;
-    position: fixed;
-    top: 84vh;
+    position: absolute;
+    top: 90vh;
     right: 35vw;
     z-index: 10;
     animation: fade_in_kf 1s linear;
     animation-fill-mode: forwards;
     animation-delay: 3s;
+    cursor: pointer;
 }
 
 @keyframes fade_in_kf {
@@ -125,7 +183,7 @@ background-size: 100%;
 background-repeat: no-repeat;
 width: 3vw;
 height: 6vh;
-top: 65vh;
+top: 72vh;
 right: 25vw;;
 }
 
@@ -137,7 +195,7 @@ right: 25vw;;
     background-repeat: no-repeat;
     width: 3vw;
     height: 6vh;
-    top: 65vh;
+    top: 72vh;
     right: 25vw;;
     }
 
@@ -149,7 +207,7 @@ right: 25vw;;
         background-repeat: no-repeat;
         width: 3vw;
         height: 6vh;
-        top: 65vh;
+        top: 72vh;
         right: 25vw;;
 }
      
@@ -161,7 +219,7 @@ right: 25vw;;
     background-repeat: no-repeat;
     width: 3vw;
     height: 6vh;
-    top: 65vh;
+    top: 72vh;
     right: 25vw;;
     }
 
@@ -173,7 +231,7 @@ right: 25vw;;
         background-repeat: no-repeat;
         width: 3vw;
         height: 6vh;
-        top: 65vh;
+        top: 72vh;
         right: 25vw;;
 }
 
@@ -185,7 +243,7 @@ right: 25vw;;
             background-repeat: no-repeat;
             width: 3vw;
             height: 6vh;
-            top: 65vh;
+            top: 72vh;
             right: 25vw;;
  }
             
@@ -197,7 +255,7 @@ right: 25vw;;
     background-repeat: no-repeat;
     width: 3vw;
     height: 6vh;
-    top: 65vh;
+    top: 72vh;
     right: 25vw;;
  }
 
@@ -209,7 +267,7 @@ right: 25vw;;
     background-repeat: no-repeat;
     width: 3vw;
     height: 6vh;
-    top: 65vh;
+    top: 72vh;
     right: 25vw;;
 }
 
@@ -221,7 +279,7 @@ right: 25vw;;
     background-repeat: no-repeat;
     width: 3vw;
     height: 6vh;
-    top: 65vh;
+    top: 72vh;
     right: 25vw;;
     }
 
@@ -346,7 +404,7 @@ right: 25vw;;
     background-image: url('screens/screen_1.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 5vw;
+    top: 8vw;
     right: 5vw;
 }
 
@@ -369,7 +427,7 @@ right: 25vw;;
     background-image: url('screens/screen_2.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 5vw;
+    top: 8vw;
     right: 5vw;
 }
 
@@ -392,7 +450,7 @@ right: 25vw;;
     background-image: url('screens/screen_3.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 5vw;
+    top: 8vw;
     right: 5vw;
 }
 
@@ -415,7 +473,7 @@ right: 25vw;;
     background-image: url('screens/screen_4.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 5vw;
+    top: 8vw;
     right: 5vw;
 }
 
@@ -438,7 +496,7 @@ right: 25vw;;
     background-image: url('screens/screen_5.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 5vw;
+    top: 8vw;
     right: 5vw;
 }
 
@@ -461,7 +519,7 @@ right: 25vw;;
     background-image: url('screens/screen_6.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 5vw;
+    top: 8vw;
     right: 5vw;
 }
 
@@ -483,7 +541,7 @@ right: 25vw;;
     background-image: url('screens/screen_5.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 5vw;
+    top: 8vw;
     right: 5vw;
 }
 
@@ -506,7 +564,7 @@ right: 25vw;;
     background-image: url('screens/screen_8.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 5vw;
+    top: 8vw;
     right: 5vw;
 }
 
@@ -529,7 +587,7 @@ right: 25vw;;
     background-image: url('screens/screen_9.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 5vw;
+    top: 8vw;
     right: 5vw;
 }
 
