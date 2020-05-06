@@ -132,7 +132,7 @@ font-weight: 100;
 }
 #subnav {
     position: absolute;
-    height: 5vh;
+    height: 7vh;
     top: 12vh;
     width: 100%;
     background-color: #ACAF8F;
@@ -142,12 +142,13 @@ font-weight: 100;
 #subnav .left {
     float: left;
     margin-left: 20vw;
+    margin-top: 2.5vh;
 }
 
 #subnav .middle {
     position: absolute;
     margin-left: 25vw;
-    margin-top: 0.7vh;
+    margin-top: 1.5vh;
     width: 35px;
     cursor: pointer;
 }
@@ -155,6 +156,7 @@ font-weight: 100;
 #subnav .right {
     float: right;
     margin-right: 20vw;
+    margin-top: 2.5vh;
 }
 #music img {
     width: 60px;
@@ -332,59 +334,59 @@ left: 28vw;
 #next_1 {
     position: relative;
     cursor: pointer;
-    top: -3vh;
+    top: -5vh;
     right: -15vw;
 }
 #next_2 {
     position: relative;
     cursor: pointer;
-    top: -3vh;
+    top: -5vh;
     right: -15vw;
 }
 #next_3 {
     position: relative;
     cursor: pointer;
-    top: -3vh;
+    top: -5vh;
     right: -15vw;
 }
 
 #next_4 {
     position: relative;
     cursor: pointer;
-    top: -3vh;
+    top: -5vh;
     right: -15vw;
 }
 #next_5 {
     position: relative;
     cursor: pointer;
-    top: -3vh;
+    top: -5vh;
     right: -15vw;
 }
 
 #next_6 {
     position: relative;
     cursor: pointer;
-    top: -3vh;
+    top: -5vh;
     right: -15vw;
 }
 
 #next_7 {
     position: relative;
     cursor: pointer;
-    top: -3vh;
+    top: -5vh;
     right: -15vw;
 }
 
 #next_8 {
     position: relative;
     cursor: pointer;
-    top: -3vh;
+    top: -5vh;
     right: -15vw;
 }
 #reload {
     position: relative;
     top: 5vh;
-    left: -3vw;
+    left: -5vw;
     cursor: pointer;
 }
 
@@ -565,7 +567,7 @@ left: 28vw;
     background-size: 100%;
     background-repeat: no-repeat; 
     width: 12vw;
-    height: 22vh;
+    height: 25vh;
     top: 5vw;
     right: 18vw;
     z-index: 3;
@@ -790,19 +792,23 @@ to {
     right: 38vw;
     background-size: 100%;
 }
+#content h1 {
+    color: #4D511B;
+}
 #content {
  position: absolute;
- top: 20vh;
+ top: 22vh;
  width: 30vw;
- left: 7vw;
+ left: 9vw;
  text-align: center;
  font-family: 'Montserrat',sans-serif;
 }
 #instagallery h1 {
     position: absolute;
     top: 50vh;
-    left: 11vw;
+    left: 12vw;
     font-family: 'Montserrat',sans-serif;
+    color: #4D511B;
 }
 #instagallery img {
     position: absolute;
