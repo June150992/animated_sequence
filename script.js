@@ -60,7 +60,6 @@ function showScreen2() {
 
     document.querySelector("#txt_2").classList.add("pulse");
     document.querySelector("#next_2").addEventListener("click", hideScreen2);
-
 }
 function hideScreen2() {
 

@@ -163,7 +163,7 @@ font-weight: 100;
     opacity: 1;
     position: absolute;
     top: 32vh;
-    right: 41vw;
+    right: 40.5vw;
     z-index: 10;
     animation: fade_in_kf 1s linear;
     animation-fill-mode: forwards;
@@ -288,6 +288,47 @@ left: 28vw;
     }
 
 
+    @keyframes next_back_kf {
+        0% {
+            transform: scale(0.96);
+        }
+    
+        50% {
+            transform: scale(1.0);
+        }
+        100% {
+            transform: scale(0.96);
+        }
+    }
+
+#next_1:hover {
+    animation: next_back_kf 2s infinite ease-in-out;
+ }
+ #next_2:hover {
+    animation: next_back_kf 2s infinite ease-in-out;
+ }
+ #next_3:hover {
+    animation: next_back_kf 2s infinite ease-in-out;
+ }
+ #next_4:hover {
+    animation: next_back_kf 2s infinite ease-in-out;
+ }
+ #next_5:hover {
+    animation: next_back_kf 2s infinite ease-in-out;
+ }
+ #next_6:hover {
+    animation: next_back_kf 2s infinite ease-in-out;
+ }
+ #next_7:hover {
+    animation: next_back_kf 2s infinite ease-in-out;
+ }
+ #next_8:hover {
+    animation: next_back_kf 2s infinite ease-in-out;
+ }
+#reload:hover {
+    animation: next_back_kf 2s infinite ease-in-out;
+}
+
 #next_1 {
     position: relative;
     cursor: pointer;
@@ -342,8 +383,8 @@ left: 28vw;
 }
 #reload {
     position: relative;
-    top: 7vh;
-    left: -1vw;
+    top: 5vh;
+    left: -3vw;
     cursor: pointer;
 }
 
@@ -769,3 +810,300 @@ to {
     top: 60vh;
     left: 7vw;
 }
+
+#logo img {
+    width: 200px; 
+    margin-left: 15vw;
+}
+@media screen and (max-width: 800px) {
+  #screen_1 {
+      width: 85%;
+      top: 20vh;
+      left: 3vw;
+      height: 40vh;
+  }
+  #screen_2 {
+    width: 85%;
+    top: 20vh;
+    left: 3vw;
+    height: 40vh;
+}
+#screen_3 {
+    width: 85%;
+    top: 20vh;
+    left: 3vw;
+    height: 40vh;
+}
+#screen_4 {
+    width: 85%;
+    top: 20vh;
+    left: 3vw;
+    height: 40vh;
+}
+#screen_5 {
+    width: 85%;
+    top: 20vh;
+    left: 3vw;
+    height: 40vh;
+}
+#screen_6 {
+    width: 85%;
+    top: 20vh;
+    left: 3vw;
+    height: 40vh;
+}
+#screen_7 {
+    width: 85%;
+    top: 20vh;
+    left: 3vw;
+    height: 40vh;
+}
+#screen_8 {
+    width: 85%;
+    top: 20vh;
+    left: 3vw;
+    height: 40vh;
+}
+#screen_9 {
+    width: 85%;
+    top: 20vh;
+    left: 3vw;
+    height: 40vh;
+}
+  #reload {
+      top: 0vh;
+      left: -18vw;
+  }
+  #next_1 {
+      top: -8vh;
+      left: 25vw;
+  }
+  #next_2 {
+    top: -8vh;
+    left: 25vw;
+}
+#next_3 {
+    top: -8vh;
+    left: 25vw;
+}
+#next_4 {
+    top: -8vh;
+    left: 25vw;
+}
+#next_5 {
+    top: -8vh;
+    left: 25vw;
+}
+#next_6 {
+    top: -8vh;
+    left: 25vw;
+}
+#next_7 {
+    top: -8vh;
+    left: 25vw;
+}
+#next_8 {
+    top: -8vh;
+    left: 25vw;
+}
+  #music {
+      top: 23vh;
+      left: 20vw;
+  }
+  #step_1 {
+      top: 33vh;
+      width: 50px;
+      left: 0vw;
+  }
+  #step_2 {
+    top: 33vh;
+    width: 50px;
+    left: 0vw;
+}
+#step_3 {
+    top: 33vh;
+    width: 50px;
+    left: 0vw;
+}
+#step_4 {
+    top: 33vh;
+    width: 50px;
+    left: 0vw;
+}
+#step_5 {
+    top: 33vh;
+    width: 50px;
+    left: 0vw;
+}
+#step_6 {
+    top: 33vh;
+    width: 50px;
+    left: 0vw;
+}
+#step_7 {
+    top: 33vh;
+    width: 50px;
+    left: 0vw;
+}
+#step_8 {
+    top: 33vh;
+    width: 50px;
+    left: 0vw;
+}
+#step_9 {
+    top: 33vh;
+    width: 50px;
+    left: 0vw;
+}
+  #character {
+      top: 15vh;
+      width: 12vh;
+      height: 22vh;
+      right: 13.5vw;
+  }
+  #char_idea {
+    top: 15.3vh;
+    width: 14vh;
+    height: 24vh;
+    right: 11vw;
+}
+#char_victory {
+    top: 15.3vh;
+    width: 16vh;
+    height: 26vh;
+    right: 10vw;
+}
+#cup_done {
+    top: 26vh;
+    left: 20vw;
+    width: 10vw;
+}
+#brown_pot {
+    top: 22vh;
+    right: 38vw;
+    width: 8vw;
+    height: 7vh;
+}
+#hand {
+    top: 28vh;
+    right: 48vw;
+    width: 4vw;
+}
+#fire {
+    top: 17vh;
+    left: 33vw;
+}
+#still_cup {
+    top: 21.5vh;
+    left: 25vw;
+}
+#can {
+    top: 16vh;
+    left: 16.5vw;
+    width: 13vw;
+}
+
+#painting {
+    top: 20vh;
+    right: 50vw;
+    width: 15vw;
+}
+  #txt_1 {
+      width: 25vw;
+      left: 30vw;
+      top: 8vh;
+  }
+
+  #txt_2 {
+    width: 25vw;
+    left: 30vw;
+    top: 8vh;
+}
+
+#txt_3 {
+    width: 25vw;
+    left: 30vw;
+    top: 8vh;
+}
+
+#txt_4 {
+    width: 25vw;
+    left: 30vw;
+    top: 8vh;
+}
+
+#txt_5 {
+    width: 25vw;
+    left: 30vw;
+    top: 8vh;
+}
+
+#txt_6 {
+    width: 25vw;
+    left: 30vw;
+    top: 8vh;
+}
+
+#txt_7{
+    width: 25vw;
+    left: 30vw;
+    top: 8vh;
+}
+#txt_8 {
+    width: 25vw;
+    left: 30vw;
+    top: 8vh;
+}
+#txt_9 {
+    width: 25vw;
+    left: 30vw;
+    top: 8vh;
+}
+  #cloud_1 {
+   top: 10vh;
+   width: 8vw;
+  }
+  #cloud_2 {
+      top: 12vh;
+      width: 5vw;
+  }
+  
+#logo img {
+    width: 200px; 
+    margin-left: 0vw;
+}
+#topnav {
+    width: 90%;
+}
+#subnav {
+    width: 90%;
+}
+#sun {
+    top: 5vh;
+    right: 5vw;
+}
+  @keyframes flying {
+      from {
+          left: 10vw;
+      }
+      to {
+       left: 70vw;
+      }
+  }
+  #pot_1 {
+      top: 18vh;
+      left: 20vw;
+      width: 10vw;
+      height: 18vh;
+  }
+  #content {
+      top: 55vh;
+      width: 80%;
+  }
+  #instagallery img {
+      top: 85vh;
+  }
+  #instagallery h1 {
+      top: 75vh;
+  }
+  }
