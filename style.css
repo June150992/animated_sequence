@@ -815,7 +815,7 @@ to {
     width: 200px; 
     margin-left: 15vw;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1025px) {
   #screen_1 {
       width: 85%;
       top: 20vh;
