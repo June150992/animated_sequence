@@ -144,6 +144,8 @@ font-weight: 100;
     float: left;
     margin-left: 20vw;
     margin-top: 1.5vh;
+    text-transform: uppercase;
+    font-size: 0.8em;
 }
 
 #subnav .middle {
@@ -155,9 +157,13 @@ font-weight: 100;
 }
 
 #subnav .right {
-    float: right;
-    margin-right: 20vw;
-    margin-top: 1.5vh;
+    position: relative;
+    right: -45vw;
+    top: 1.5vh;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
 }
 #music img {
     width: 50px;
