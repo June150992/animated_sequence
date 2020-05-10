@@ -142,7 +142,7 @@ font-weight: 100;
 }
 #subnav .left {
     float: left;
-    margin-left: 20vw;
+    margin-left: 18vw;
     margin-top: 1.5vh;
     text-transform: uppercase;
     font-size: 0.8em;
@@ -805,7 +805,7 @@ to {
 }
 #content {
  position: absolute;
- top: 22vh;
+ top: 30vh;
  width: 30vw;
  left: 7vw;
  text-align: center;
