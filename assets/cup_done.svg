@@ -1,8 +1,41 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="181" height="175" viewBox="0 0 181 175">
-  <polygon points="180.76 174.9 44.63 174.53 45.1 0.58 77 0.67 181.24 0.95 180.76 174.9" fill="#f2f1df"/>
-  <circle cx="44.87" cy="91.52" r="43.87" fill="#f2f1df"/>
-  <path d="M44.87,91.52,45,120.26h-.08a28.74,28.74,0,0,1,0-57.48Z" fill="#fff"/>
-  <path d="M44.87,91.52,45,120.26h-.08a28.74,28.74,0,0,1,0-57.48Z" fill="#683123"/>
-  <text transform="translate(60 73.83)" font-size="22.41" fill="#4d511b" font-family="Sail-Regular, Sail"><tspan letter-spacing="-0.01em">K</tspan><tspan x="24" y="0">aysen</tspan></text>
-  <text transform="translate(82 97.83)" font-size="22.41" fill="#4d511b" font-family="Sail-Regular, Sail">Keramik</text>
+  <g>
+    <polygon points="179.76 174.9 43.63 174.53 44.1 0.58 76 0.67 180.24 0.95 179.76 174.9" fill="#f2f1df"/>
+    <circle cx="43.87" cy="91.52" r="43.87" fill="#f2f1df"/>
+    <path d="M43.87,91.52,44,120.26h-.08a28.74,28.74,0,0,1,0-57.48Z" fill="#fff"/>
+    <path d="M43.87,91.52,44,120.26h-.08a28.74,28.74,0,0,1,0-57.48Z" fill="#683123"/>
+    <g>
+      <circle cx="69" cy="56" r="4" fill="#4d511b"/>
+      <circle cx="68" cy="62" r="4" fill="#4d511b"/>
+      <circle cx="71" cy="66" r="4" fill="#4d511b"/>
+      <circle cx="77" cy="66" r="4" fill="#4d511b"/>
+      <circle cx="81" cy="63" r="4" fill="#4d511b"/>
+      <circle cx="81" cy="58" r="4" fill="#4d511b"/>
+      <circle cx="76" cy="55" r="4" fill="#4d511b"/>
+      <circle cx="74.75" cy="60.75" r="4.25" fill="#f2f1df"/>
+      <line x1="74.75" y1="67" x2="75" y2="97" fill="#664923" stroke="#4d511b" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g>
+      <circle cx="100" cy="123" r="4" fill="#4d511b"/>
+      <circle cx="99" cy="129" r="4" fill="#4d511b"/>
+      <circle cx="102" cy="133" r="4" fill="#4d511b"/>
+      <circle cx="108" cy="133" r="4" fill="#4d511b"/>
+      <circle cx="112" cy="130" r="4" fill="#4d511b"/>
+      <circle cx="112" cy="125" r="4" fill="#4d511b"/>
+      <circle cx="107" cy="122" r="4" fill="#4d511b"/>
+      <circle cx="105.75" cy="127.75" r="4.25" fill="#f2f1df"/>
+      <line x1="105.75" y1="134" x2="106" y2="164" fill="#664923" stroke="#4d511b" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <g>
+      <circle cx="144" cy="21" r="4" fill="#4d511b"/>
+      <circle cx="143" cy="27" r="4" fill="#4d511b"/>
+      <circle cx="146" cy="31" r="4" fill="#4d511b"/>
+      <circle cx="152" cy="31" r="4" fill="#4d511b"/>
+      <circle cx="156" cy="28" r="4" fill="#4d511b"/>
+      <circle cx="156" cy="23" r="4" fill="#4d511b"/>
+      <circle cx="151" cy="20" r="4" fill="#4d511b"/>
+      <circle cx="149.75" cy="25.75" r="4.25" fill="#f2f1df"/>
+      <line x1="149.75" y1="32" x2="150" y2="62" fill="#664923" stroke="#4d511b" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
 </svg>
