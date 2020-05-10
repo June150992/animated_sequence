@@ -827,8 +827,8 @@ to {
 }
 
 #logo img {
-    width: 230px; 
-    margin-left: 15vw;
+    width: 110px; 
+    margin-left: 19vw;
 }
 @media screen and (max-width: 1025px) {
   #screen_1 {
