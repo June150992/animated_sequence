@@ -29,8 +29,12 @@ height: 12vh;
 width: 100%;
 background-color: white;
 font-size: 1.1em;
+color: #4D511B;
 }
-
+#topnav ul li a:hover {
+    font-weight: 700;
+    color: #efbf5e;
+}
 #topnav ul {
     margin-right: 2vw;
 }
@@ -114,7 +118,9 @@ font-weight: 100;
     z-index: 2;
 
 }
-
+#content img {
+    width: 100px;
+}
 .flying {
     animation-name: flying;
     animation-duration: 10s;
@@ -134,7 +140,7 @@ font-weight: 100;
 #subnav {
     position: absolute;
     height: 50px;
-    top: 14vh;
+    top: 16vh;
     width: 100%;
     background-color: #ACAF8F;
     color: white;
@@ -344,18 +350,21 @@ left: 27vw;
     cursor: pointer;
     top: -5vh;
     right: -15vw;
+    width: 130px;
 }
 #next_2 {
     position: relative;
     cursor: pointer;
     top: -5vh;
     right: -15vw;
+    width: 130px;
 }
 #next_3 {
     position: relative;
     cursor: pointer;
     top: -5vh;
     right: -15vw;
+    width: 130px;
 }
 
 #next_4 {
@@ -363,12 +372,14 @@ left: 27vw;
     cursor: pointer;
     top: -5vh;
     right: -15vw;
+    width: 130px;
 }
 #next_5 {
     position: relative;
     cursor: pointer;
     top: -5vh;
     right: -15vw;
+    width: 130px;
 }
 
 #next_6 {
@@ -376,6 +387,7 @@ left: 27vw;
     cursor: pointer;
     top: -5vh;
     right: -15vw;
+    width: 130px;
 }
 
 #next_7 {
@@ -383,6 +395,7 @@ left: 27vw;
     cursor: pointer;
     top: -5vh;
     right: -15vw;
+    width: 130px;
 }
 
 #next_8 {
@@ -390,12 +403,14 @@ left: 27vw;
     cursor: pointer;
     top: -5vh;
     right: -15vw;
+    width: 130px;
 }
 #reload {
     position: relative;
     top: 5vh;
     left: -5vw;
     cursor: pointer;
+    width: 130px;
 }
 
 #screen_1 {
@@ -801,6 +816,7 @@ to {
     background-size: 100%;
 }
 #content h1 {
+    font-weight: 300;
     color: #4D511B;
 }
 #content {
@@ -830,59 +846,60 @@ to {
     width: 110px; 
     margin-left: 19vw;
 }
+
 @media screen and (max-width: 1025px) {
   #screen_1 {
       width: 85%;
       top: 20vh;
-      left: 3vw;
+      left: 8vw;
       height: 40vh;
   }
   #screen_2 {
     width: 85%;
     top: 20vh;
-    left: 3vw;
+    left: 8vw;
     height: 40vh;
 }
 #screen_3 {
     width: 85%;
     top: 20vh;
-    left: 3vw;
+    left: 8vw;
     height: 40vh;
 }
 #screen_4 {
     width: 85%;
     top: 20vh;
-    left: 3vw;
+    left: 8vw;
     height: 40vh;
 }
 #screen_5 {
     width: 85%;
     top: 20vh;
-    left: 3vw;
+    left: 8vw;
     height: 40vh;
 }
 #screen_6 {
     width: 85%;
     top: 20vh;
-    left: 3vw;
+    left: 8vw;
     height: 40vh;
 }
 #screen_7 {
     width: 85%;
     top: 20vh;
-    left: 3vw;
+    left: 8vw;
     height: 40vh;
 }
 #screen_8 {
     width: 85%;
     top: 20vh;
-    left: 3vw;
+    left: 8vw;
     height: 40vh;
 }
 #screen_9 {
     width: 85%;
     top: 20vh;
-    left: 3vw;
+    left: 8vw;
     height: 40vh;
 }
   #reload {
@@ -1084,14 +1101,28 @@ to {
   }
   
 #logo img {
-    width: 200px; 
+    width: 100px; 
     margin-left: 0vw;
 }
 #topnav {
-    width: 90%;
+    width: 100%;
+}
+#topnav ul li a {
+    font-size: 0.8em;
+    margin: 0;
 }
 #subnav {
-    width: 90%;
+    top: 12vh;
+    width: 100%;
+}
+#subnav .left {
+    margin-left: 40px;
+}
+#subnav .middle {
+    left: 7vw;
+}
+#subnav .right {
+    right: -25vw;
 }
 #sun {
     top: 5vh;
@@ -1112,8 +1143,9 @@ to {
       height: 18vh;
   }
   #content {
-      top: 55vh;
+      top: 60vh;
       width: 80%;
+      left: 10vw;
   }
   #instagallery img {
       top: 85vh;
@@ -1121,4 +1153,239 @@ to {
   #instagallery h1 {
       top: 75vh;
   }
+  #music img {
+      margin-left: 35px;
   }
+  }
+
+  
+@media screen and (max-width: 500px) {
+    #subnav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 14vh;
+        top: 12vh;
+        font-size: 0.8em;
+    }
+    #topnav {
+        width: 100%;
+        font-size: 0.7em;
+    }
+    #topnav ul li {
+        margin-top: 2vh;
+    }
+  #screen_1 {
+      top: 33vh;
+  }
+  #screen_2 {
+    top: 33vh;
+}
+#screen_3 {
+    top: 33vh;
+}
+#screen_4 {
+    top: 33vh;
+}
+#screen_5 {
+    top: 33vh;
+}
+#screen_6 {
+    top: 33vh;
+}
+#screen_7 {
+    top: 33vh;
+}
+#screen_8 {
+    top: 33vh;
+}
+#screen_9 {
+    top: 33vh;
+}
+    #logo img {
+        width: 70px;
+    }
+    #subnav .left {
+        margin-left: 35vw;
+    }
+    #subnav .middle {
+        margin-left: 40vw;
+        margin-top: 0px;
+    }
+    #subnav .right {
+        top: 5vh;
+        right: -2vw;
+       text-align: center;
+    }
+    #music img {
+        margin-top: 8vh;
+        margin-left: 6vw;
+    }
+    #music {
+        width: 50px;
+        height: 50px;
+    }
+    #next_1 {
+        top: -12vh;
+        left: 33vw;
+        width: 80px;
+    }
+    #next_2 {
+        top: -12vh;
+        left: 33vw;
+        width: 80px;
+    }
+    #next_3 {
+        top: -12vh;
+        left: 33vw;
+        width: 80px;
+    }
+    #next_4 {
+        top: -12vh;
+        left: 33vw;
+        width: 80px;
+    }
+    #next_5 {
+        top: -12vh;
+        left: 33vw;
+        width: 80px;
+    }
+    #next_6 {
+        top: -12vh;
+        left: 33vw;
+        width: 80px;
+    }
+    #next_7 {
+        top: -12vh;
+        left: 33vw;
+        width: 80px;
+    }
+    #next_8 {
+        top: -12vh;
+        left: 33vw;
+        width: 80px;
+    }
+    #reload {
+        top: -5vh;
+        left: -28vw;
+        width: 80px;
+    }
+    #character {
+     top: 5vh;
+     width: 14vw;
+     height: 24vh;
+    }
+    #char_idea {
+        top: 4.5vh;
+        width: 16vw;
+        height: 26vh;
+       }
+       #char_victory {
+        top: 8vh;
+        width: 20vw;
+        height: 20vh;
+       }
+    #brown_pot {
+        top: 15vh;
+        width: 7vw;
+        height: 8vw;
+    }
+    #hand {
+        top: 18vh;
+    }
+    #still_cup {
+        top: 13vh;
+    }
+    #txt_1 {
+        top: 5vh;
+    }
+    #txt_2 {
+        top: 5vh;
+    }
+    #txt_3 {
+        top: 5vh;
+    }
+    #txt_4 {
+        top: 5vh;
+    }
+    #txt_5 {
+        top: 3vh;
+    }
+    #txt_6 {
+        top: 5vh;
+    }
+    #txt_7 {
+        top: 3vh;
+    }
+    #txt_8 {
+        top: 5vh;
+    }
+    #txt_9 {
+        top: 5vh;
+    }
+    #pot_1 {
+     top: 10vh;
+    }
+    #cloud_1 {
+top: 5vh;
+    }
+    #cloud_2 {
+top: 8vh;
+    }
+    #painting {
+        top: 12vh;
+    }
+    #cup_done {
+        top: 16vh;
+    }
+    #sun {
+        top: 3vh;
+    }
+    #step_1 {
+        top: 22vh;
+    }
+    #step_2 {
+        top: 22vh;
+    }
+    #step_3 {
+        top: 22vh;
+    }
+    #step_4 {
+        top: 22vh;
+    }
+    #step_5 {
+        top: 22vh;
+    }
+    #step_6 {
+        top: 22vh;
+    }
+    #step_7 {
+        top: 22vh;
+    }
+    #step_8 {
+        top: 22vh;
+    }
+    #step_9 {
+        top: 22vh;
+    }
+    #content {
+        top: 60vh;
+    }
+    #content img {
+        width: 80px;
+    }
+    #content h1 {
+        width: 100%;
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+    #kurv {
+        width: 50px;
+    }
+    #fire {
+        top: 10.5vh;
+    }
+    #can{
+        top: 10vh;
+    } 
+}
