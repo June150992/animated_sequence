@@ -118,8 +118,28 @@ font-weight: 100;
     z-index: 2;
 
 }
+#instabtn {
+    margin-top: 20px;
+    font-size: 0.8em;
+    font-weight: 400;
+    border: 2px solid #4D511B;
+    background-color: white;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 0px 0px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+#instabtn a {
+    color: #4D511B;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat',sans-serif;
+}
 #content img {
     width: 100px;
+}
+#content p {
+    font-size: 14px;
 }
 .flying {
     animation-name: flying;
@@ -818,6 +838,8 @@ to {
 #content h1 {
     font-weight: 300;
     color: #4D511B;
+    font-family: 'Montserrat',sans-serif;
+    margin-bottom: 35px;
 }
 #content {
  position: absolute;
@@ -825,7 +847,7 @@ to {
  width: 30vw;
  left: 7vw;
  text-align: center;
- font-family: 'Montserrat',sans-serif;
+ font-family: 'Domine', serif;
  line-height: 2.5vh;
 }
 #instagallery h1 {
@@ -845,6 +867,7 @@ to {
 #logo img {
     width: 110px; 
     margin-left: 19vw;
+    margin-top: 1.5vh;
 }
 
 @media screen and (max-width: 1025px) {
@@ -1102,7 +1125,7 @@ to {
   
 #logo img {
     width: 100px; 
-    margin-left: 0vw;
+    margin-left: 8vw;
 }
 #topnav {
     width: 100%;
@@ -1119,10 +1142,10 @@ to {
     margin-left: 40px;
 }
 #subnav .middle {
-    left: 7vw;
+    left: 10vw;
 }
 #subnav .right {
-    right: -25vw;
+    right: -30vw;
 }
 #sun {
     top: 5vh;
@@ -1143,7 +1166,7 @@ to {
       height: 18vh;
   }
   #content {
-      top: 60vh;
+      top: 56vh;
       width: 80%;
       left: 10vw;
   }
@@ -1204,6 +1227,10 @@ to {
 }
     #logo img {
         width: 70px;
+        margin-left: 0vw;
+    }
+    #content p {
+        font-size: 12px;
     }
     #subnav .left {
         margin-left: 35vw;
