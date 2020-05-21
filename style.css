@@ -135,6 +135,9 @@ font-weight: 100;
     text-transform: uppercase;
     font-family: 'Montserrat',sans-serif;
 }
+#instabtn:hover {
+    transform: scale(1.1);
+}
 #content img {
     width: 100px;
 }
@@ -181,7 +184,9 @@ font-weight: 100;
     width: 35px;
     cursor: pointer;
 }
-
+#subnav .middle:hover {
+    transform: scale(1.1);
+}
 #subnav .right {
     position: relative;
     right: -45vw;
