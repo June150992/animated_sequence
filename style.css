@@ -29,7 +29,6 @@ height: 12vh;
 width: 100%;
 background-color: white;
 font-size: 1.1em;
-color: #4D511B;
 }
 #topnav ul li a:hover {
     font-weight: 700;
@@ -41,6 +40,7 @@ color: #4D511B;
 #topnav ul li a {
     text-decoration: none;
     margin-right: 20px;
+    color: #4D511B;
 }
 #topnav ul li {
 position: relative;
@@ -160,7 +160,7 @@ font-weight: 100;
 #subnav {
     position: absolute;
     height: 50px;
-    top: 16vh;
+    top: 18vh;
     width: 100%;
     background-color: #ACAF8F;
     color: white;
@@ -169,7 +169,7 @@ font-weight: 100;
 #subnav .left {
     float: left;
     margin-left: 18vw;
-    margin-top: 1.5vh;
+    margin-top: 2vh;
     text-transform: uppercase;
     font-size: 0.8em;
 }
@@ -198,8 +198,8 @@ font-weight: 100;
 #music {
     opacity: 1;
     position: absolute;
-    top: 32vh;
-    right: 42vw;
+    top: 40vh;
+    right: 41vw;
     z-index: 10;
     animation: fade_in_kf 1s linear;
     animation-fill-mode: forwards;
@@ -436,11 +436,11 @@ left: 27vw;
 #screen_1 {
     position: absolute;
     width: 50vw;
-    height: 75vh;
+    height: 70vh;
     background-image: url('screens/screen_1.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 12vw;
+    top: 15vw;
     right: 5vw;
 }
 
@@ -463,7 +463,7 @@ left: 27vw;
     background-image: url('screens/screen_2.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 12vw;
+    top: 15vw;
     right: 5vw;
 }
 
@@ -486,7 +486,7 @@ left: 27vw;
     background-image: url('screens/screen_3.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 12vw;
+    top: 15vw;
     right: 5vw;
 }
 
@@ -509,7 +509,7 @@ left: 27vw;
     background-image: url('screens/screen_4.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 12vw;
+    top: 15vw;
     right: 5vw;
 }
 
@@ -532,7 +532,7 @@ left: 27vw;
     background-image: url('screens/screen_5.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 12vw;
+    top: 15vw;
     right: 5vw;
 }
 
@@ -555,7 +555,7 @@ left: 27vw;
     background-image: url('screens/screen_6.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 12vw;
+    top: 15vw;
     right: 5vw;
 }
 
@@ -577,7 +577,7 @@ left: 27vw;
     background-image: url('screens/screen_5.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 12vw;
+    top: 15vw;
     right: 5vw;
 }
 
@@ -600,7 +600,7 @@ left: 27vw;
     background-image: url('screens/screen_8.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 12vw;
+    top: 15vw;
     right: 5vw;
 }
 
@@ -623,7 +623,7 @@ left: 27vw;
     background-image: url('screens/screen_9.svg');
     background-size: 100%;
     background-repeat: no-repeat; 
-    top: 12vw;
+    top: 15vw;
     right: 5vw;
 }
 
@@ -843,7 +843,7 @@ to {
 }
 #content {
  position: absolute;
- top: 30vh;
+ top: 35vh;
  width: 30vw;
  left: 7vw;
  text-align: center;
@@ -1193,11 +1193,9 @@ to {
     }
     #topnav {
         width: 100%;
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
-    #topnav ul li {
-        margin-top: 2vh;
-    }
+
   #screen_1 {
       top: 33vh;
   }
@@ -1226,8 +1224,8 @@ to {
     top: 33vh;
 }
     #logo img {
-        width: 70px;
-        margin-left: 0vw;
+        width: 60px;
+        margin-left: 0;
     }
     #content p {
         font-size: 12px;
@@ -1408,6 +1406,7 @@ top: 8vh;
     }
     #kurv {
         width: 50px;
+        margin-right: -20px;
     }
     #fire {
         top: 10.5vh;
