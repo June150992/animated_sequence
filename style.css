@@ -27,27 +27,28 @@ body, html {
     position: absolute;
     top: 100vh;
     width: 100%;
-    height: 120vh;
+    height: 90vh;
     margin: 0px;
     padding: 0px;
-    background-color: #ACAF8F
+    background-color: #ACAF8F;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "image1 image2 image-3 image-4" "image-5 image-6 image-7 image-8" "image-9 image-10 image-11 image-12";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "image1 image2 image-3 image-4" "image-5 image-6 image-7 image-8" "image-9";
     padding-top: 50px;
     grid-gap: 10px;
-    width: 1200px;
+    width: 95%;
     margin: 0 auto;
   }
 
-.grid-container h2 {
+.grid-container a {
     font-family: 'Montserrat',sans-serif;
     font-weight: 300;
     background-color: white;
+    color: #ACAF8F;
     margin: 0;
     padding: 15px;
 }
@@ -96,14 +97,6 @@ height: 100%;
   .image-10 img { grid-area: image-10;
     width: 100%;
     height: 100%; }
-  
-  .image-11 img { grid-area: image-11;
-    width: 100%;
-height: 100%; }
-  
-  .image-12 img { grid-area: image-12; 
-    width: 100%;
-    height: 100%;}
   
 #topnav {
 position: absolute;
@@ -1222,7 +1215,7 @@ to {
     margin: 0;
 }
 #subnav {
-    top: 12vh;
+    top: 14vh;
     width: 100%;
 }
 #subnav .left {
@@ -1232,7 +1225,7 @@ to {
     left: 10vw;
 }
 #subnav .right {
-    right: -30vw;
+    right: -24vw;
 }
 #sun {
     top: 5vh;
@@ -1265,6 +1258,14 @@ to {
   }
   #music img {
       margin-left: 35px;
+  }
+  .grid-container {
+      grid-template-columns: 1fr 1fr;
+      width: 75%;
+  }
+  #gallery {
+      top: 110vh;
+      height: 155vh;
   }
   }
 
@@ -1501,4 +1502,12 @@ top: 8vh;
     #can{
         top: 10vh;
     } 
+    .grid-container {
+        grid-template-columns: 1fr;
+        width: 75%;
+    }
+    #gallery {
+        top: 125vh;
+        height: 375vh;
+    }
 }
