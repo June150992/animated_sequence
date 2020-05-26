@@ -27,10 +27,6 @@ body, html {
     position: absolute;
     top: 100vh;
     width: 100%;
-<<<<<<< HEAD
-    height: 90vh;
-=======
->>>>>>> 0797407ccc10eddfe610be89e7b4c27dbfe03d28
     margin: 0px;
     padding: 0px;
     background-color: #ACAF8F;
@@ -43,12 +39,8 @@ body, html {
     grid-template-areas: "image1 image2 image-3 image-4" "image-5 image-6 image-7 image-8" "image-9";
     padding-top: 50px;
     padding-bottom: 50px;
-    grid-gap: 10px;
-<<<<<<< HEAD
-    width: 95%;
-=======
-    width: 1400px;
->>>>>>> 0797407ccc10eddfe610be89e7b4c27dbfe03d28
+    grid-gap: 15px;
+    width: 1600px;
     margin: 0 auto;
   }
 
@@ -131,7 +123,7 @@ top: -8vh;
 float: right;
 list-style: none;
 margin-right: 20px;
-font-family: 'Montserrat',sans-serif;
+font-family: 'Domine', serif;
 font-weight: 100;
 }
 
@@ -250,11 +242,11 @@ font-weight: 100;
     width: 100%;
     background-color: #ACAF8F;
     color: white;
-    font-family: 'Montserrat',sans-serif;
+    font-family: Domine, sans-serif;
 }
 #subnav .left {
     float: left;
-    margin-left: 18vw;
+    margin-left: 65px;
     margin-top: 2vh;
     text-transform: uppercase;
     font-size: 0.8em;
@@ -272,7 +264,7 @@ font-weight: 100;
 }
 #subnav .right {
     position: relative;
-    right: -45vw;
+    right: -50vw;
     top: 1.5vh;
     color: white;
     text-decoration: none;
@@ -953,8 +945,8 @@ to {
 }
 
 #logo img {
-    width: 110px; 
-    margin-left: 19vw;
+    width: 120px; 
+    margin-left: 60px;
     margin-top: 1.5vh;
 }
 
