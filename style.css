@@ -27,10 +27,6 @@ body, html {
     position: absolute;
     top: 100vh;
     width: 100%;
-<<<<<<< HEAD
-    height: 90vh;
-=======
->>>>>>> 0797407ccc10eddfe610be89e7b4c27dbfe03d28
     margin: 0px;
     padding: 0px;
     background-color: #ACAF8F;
@@ -44,11 +40,7 @@ body, html {
     padding-top: 50px;
     padding-bottom: 50px;
     grid-gap: 10px;
-<<<<<<< HEAD
     width: 95%;
-=======
-    width: 1400px;
->>>>>>> 0797407ccc10eddfe610be89e7b4c27dbfe03d28
     margin: 0 auto;
   }
 
