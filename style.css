@@ -238,9 +238,9 @@ font-weight: 100;
 #subnav {
     position: absolute;
     height: 50px;
-    top: 18vh;
+    top: 140px;
     width: 100%;
-    background-color: #ACAF8F;
+    background-color:#B5BC5B;
     color: white;
     font-family: Domine, sans-serif;
 }
@@ -945,7 +945,7 @@ to {
 }
 
 #logo img {
-    width: 120px; 
+    width: 100px; 
     margin-left: 60px;
     margin-top: 1.5vh;
 }
